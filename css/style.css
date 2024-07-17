@@ -3,19 +3,22 @@ body{
     
 }
 .tital-continer{
-    margin: 10vh 0px;
+    height:;
+    margin: 8vh 0px;
     margin-left: 20px;
     display: flex;
 }
 .left{
-    height: 70vh;
+    height: 90vh;
     width: 50vw;
-    font-size: 3.8vw;
-    font-weight: 700;
+   
+    position: relative;
     
    
 }
 .left h1{
+    font-size: 7vw;
+    font-weight: 700;
 
     
 }
@@ -42,10 +45,16 @@ body{
     
     
 }
+
 .right:hover{
 transform: scale(1.03)
-}   
-.title-btn button{
+} 
+.title-btn{
+    position: absolute;
+    top: 80vh;
+    left: 3px;
+}  
+.btn{
     height: 8vh;
     width: 13vw;
     font-size: 1.5vw;
@@ -62,3 +71,24 @@ transform: scale(1.03)
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
     color: #0d0d25;
 }
+#page2{
+    height: 100vh;
+    margin: 20vh 0px;
+}
+#page2 h6{text-align: center;
+    
+    font-size: 2vw;
+    color:    rgb(146, 128, 128);
+}
+.iteam{
+    height: 34vh;
+    transition: 1.5s;
+ 
+}
+
+.iteam:hover{
+    transform: scale(1.2)
+
+}
+
+
