@@ -45,3 +45,20 @@ body{
 .right:hover{
 transform: scale(1.03)
 }   
+.title-btn button{
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    border-radius: 15px;
+    box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
+    border: none;
+    cursor: pointer;
+    
+    background: rgb(243, 243, 245)
+}
+.title-btn button:hover{
+    border-color: #0d0d25;
+    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+    color: #0d0d25;
+}
