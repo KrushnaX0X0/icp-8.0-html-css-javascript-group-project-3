@@ -38,9 +38,9 @@
         <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\blog-3.jpg" class="blog-img"/>
 
         <div class="quantity-btn-container">
-            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange3nd('dec')"/>
-            <span class="quantity-text" id="quantity-text3nd">1</span>
-            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange3nd('inc')" />
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange3rd('dec')"/>
+            <span class="quantity-text" id="quantity-text3rd">1</span>
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange3rd('inc')" />
         </div>
         <button type="button" class="btn">
             BUY NOW
@@ -64,6 +64,20 @@
 
              function handleQuantityChange2nd(action){
              const quantityElement=document.getElementById("quantity-text2nd");
+             let quantity =parseInt( quantityElement.innerText);
+            if(quantity == 1 && action == 'dec'){
+             alert("Quantity can not be less then 1");
+            return;
+             }
+            else if(quantity == 6 && action == 'inc'){
+             alert("Quantity can not be greater then 6");
+            return;
+             }
+             quantityElement.innerText = action == 'inc'? ++quantity : --quantity;
+             }
+
+             function handleQuantityChange3rd(action){
+             const quantityElement=document.getElementById("quantity-text3rd");
              let quantity =parseInt( quantityElement.innerText);
             if(quantity == 1 && action == 'dec'){
              alert("Quantity can not be less then 1");
