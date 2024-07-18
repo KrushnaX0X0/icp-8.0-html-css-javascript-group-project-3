@@ -66,17 +66,139 @@ transform: scale(1.03)
     
     background: rgb(243, 243, 245)
 }
-.title-btn button:hover{
+.btn:hover{
     border-color: #0d0d25;
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
     color: #0d0d25;
 }
 #page2{
-    height: 100vh;
-    margin: 20vh 0px;
+    height: 200vh;
+    width: 100%;
     border: 2px solid red;
 }
-#page2 h6{text-align: center;
+#page2 h1{
+    text-align: center;
+}
+#card-continer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25vh 0px;
+}
+.card{
+    height: 90vh;
+    width: 25vw;
+   position: relative;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #eeeaea;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.card-img img{
+    height: 34vh;
+    width: 19vw;
+    position: absolute;
+    top: -80px;
+    left: 39px; 
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.dish-rating {
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+.info{
+    position: absolute;
+    top: 160px;
+    
+   
+
+}
+.info h3{
+    font-size: 2.8vw;
+    text-align: center;
+}
+.info p{
+    text-align: center;
+   color:  #bfbfbf;
+}
+.info b{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+.quentity{
+    width: 100%;
+    position: absolute;
+    bottom: 130px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.quentity img{
+        
+    cursor: pointer;
+}
+#product-quentity{
+    font-size:2vw ;
+}
+.prise p{
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-size: 2vw;
+}
+.order-btn{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page3{
+    height: 100vh;
+    margin: 20vh 0px;
+}
+#compani-iteam{
+    display: flex;
+    justify-content: space-evenly;
+}
+   
+#page3 h6{
+    text-align: center;
     
     font-size: 2vw;
     color:    rgb(146, 128, 128);
@@ -93,18 +215,6 @@ transform: scale(1.03)
 }
 
 
-.page3{
-    height:100vh;
-    width: 100%;
-    font-family: gily-roy;
-    position: relative;
-   
- }
 
- .page3 video{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
- }
 
 
