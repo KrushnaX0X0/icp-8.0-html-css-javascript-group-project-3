@@ -11,16 +11,30 @@
         <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\blog-1.jpg" class="blog-img"/>
         
         <div class="quantity-btn-container">
-            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange('dec')"/>
-            <span class="quantity-text" id="quantity-text">1</span>
-            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange('inc')" />
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange1st('dec')"/>
+            <span class="quantity-text" id="quantity-text1st">1</span>
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange1st('inc')" />
         </div>
         <button type="button" class="btn">
             BUY NOW
         </button>
+    </div>
+
+    <div class="blog-title">
+        <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\blog-2.jpg" class="blog-img"/>
+        
+        <div class="quantity-btn-container">
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange2nd('dec')"/>
+            <span class="quantity-text" id="quantity-text">1</span>
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange2nd('inc')" />
+        </div>
+        <button type="button" class="btn">
+            BUY NOW
+        </button>
+    </div>
         <script>
-            function handleQuantityChange(action){
-             const quantityElement=document.getElementById("quantity-text");
+            function handleQuantityChange1st(action){
+             const quantityElement=document.getElementById("quantity-text1st");
              let quantity =parseInt( quantityElement.innerText);
             if(quantity == 1 && action == 'dec'){
              alert("Quantity can not be less then 1");
@@ -33,6 +47,6 @@
              quantityElement.innerText = action == 'inc'? ++quantity : --quantity;
              }
         </script>
-    </div>
+   
 </body>
 </html>
