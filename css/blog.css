@@ -38,3 +38,9 @@
 .blog-message:hover{
     color:tomato;
 }
+.food-info{
+    font-size: larger;
+    margin-top: -10px;
+    text-align: center;
+    padding:5px 10px;
+}
