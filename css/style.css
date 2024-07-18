@@ -106,5 +106,12 @@ transform: scale(1.03)
     width: 100%;
     object-fit: fill;
  }
+ .navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #758694;
+    height: 80px;
+    align-items: center;
+ }
 
 
