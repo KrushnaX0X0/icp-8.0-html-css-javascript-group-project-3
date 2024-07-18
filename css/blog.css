@@ -35,3 +35,6 @@
     font-size:x-large;
     text-align: center;
 }
+.blog-message:hover{
+    color:tomato;
+}
