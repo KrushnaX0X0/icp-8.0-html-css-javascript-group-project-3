@@ -94,3 +94,16 @@
     font-size: 40px;
     margin-top: 10px;
 }
+.btn{
+    display: block;
+    margin:20px auto;
+    padding:10px 20px;
+    border:none;
+    border: 1px solid black;
+    border-radius:10px 0 10px 0;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+    cursor: pointer;
+    color:rgb(51, 102, 204);
+    background-color: #ebf0fa;
+
+}
