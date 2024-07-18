@@ -37,14 +37,14 @@
     cursor: pointer;
 }
 .blog-message{
-    font-size:x-large;
+    font-size:xx-large;
     text-align: center;
 }
 .blog-message:hover{
     color:tomato;
 }
 .food-info{
-    font-size: larger;
+    font-size:x-large;
     margin-top: -10px;
     text-align: center;
     padding:5px 10px;
