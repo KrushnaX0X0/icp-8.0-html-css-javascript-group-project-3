@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\css\blog.css"/>
 </head>
 <body>
+    <div class="blog-card">
     <div class="blog-title">
         <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\blog-1.jpg" class="blog-img"/>
         
@@ -25,16 +26,44 @@
         
         <div class="quantity-btn-container">
             <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange2nd('dec')"/>
-            <span class="quantity-text" id="quantity-text">1</span>
+            <span class="quantity-text" id="quantity-text2nd">1</span>
             <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange2nd('inc')" />
         </div>
         <button type="button" class="btn">
             BUY NOW
         </button>
     </div>
+
+    <div class="blog-title">
+        <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\blog-3.jpg" class="blog-img"/>
+
+        <div class="quantity-btn-container">
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange3nd('dec')"/>
+            <span class="quantity-text" id="quantity-text3nd">1</span>
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange3nd('inc')" />
+        </div>
+        <button type="button" class="btn">
+            BUY NOW
+        </button>
+    </div>
+</div>
         <script>
             function handleQuantityChange1st(action){
              const quantityElement=document.getElementById("quantity-text1st");
+             let quantity =parseInt( quantityElement.innerText);
+            if(quantity == 1 && action == 'dec'){
+             alert("Quantity can not be less then 1");
+            return;
+             }
+            else if(quantity == 6 && action == 'inc'){
+             alert("Quantity can not be greater then 6");
+            return;
+             }
+             quantityElement.innerText = action == 'inc'? ++quantity : --quantity;
+             }
+
+             function handleQuantityChange2nd(action){
+             const quantityElement=document.getElementById("quantity-text2nd");
              let quantity =parseInt( quantityElement.innerText);
             if(quantity == 1 && action == 'dec'){
              alert("Quantity can not be less then 1");
