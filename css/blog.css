@@ -15,7 +15,7 @@
     margin-left:100px;
 }
 .blog-img{
-    width:300px;
+    width:350px;
     display:flex;
     margin:20px auto;
     border:1px solid rgb(242, 242, 242);
@@ -30,4 +30,8 @@
     margin-left: 20px;
     font-size: 20px;
     cursor: pointer;
+}
+.blog-message{
+    font-size:x-large;
+    text-align: center;
 }
