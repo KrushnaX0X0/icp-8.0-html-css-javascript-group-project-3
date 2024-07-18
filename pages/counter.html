@@ -65,11 +65,11 @@
 <div  class="blog-card">
     <div class="blog-title">
         <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\blog-5.jpg" class="blog-img" height="350px"/>
-        
+
         <div class="quantity-btn-container">
-            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange4th('dec')"/>
-            <span class="quantity-text" id="quantity-text4th">1</span>
-            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange4th('inc')" />
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\minus.png"  class="btn-quantity" onclick="handleQuantityChange5th('dec')"/>
+            <span class="quantity-text" id="quantity-text5th">1</span>
+            <img src="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\img\plus.png" class="btn-quantity" onclick="handleQuantityChange5th('inc')" />
         </div>
         <button type="button" class="btn">
             BUY NOW
@@ -124,6 +124,20 @@
              
              function handleQuantityChange4th(action){
              const quantityElement=document.getElementById("quantity-text4th");
+             let quantity =parseInt( quantityElement.innerText);
+            if(quantity == 1 && action == 'dec'){
+             alert("Quantity can not be less then 1");
+            return;
+             }
+            else if(quantity == 6 && action == 'inc'){
+             alert("Quantity can not be greater then 6");
+            return;
+             }
+             quantityElement.innerText = action == 'inc'? ++quantity : --quantity;
+             }
+
+             function handleQuantityChange5th(action){
+             const quantityElement=document.getElementById("quantity-text5th");
              let quantity =parseInt( quantityElement.innerText);
             if(quantity == 1 && action == 'dec'){
              alert("Quantity can not be less then 1");
