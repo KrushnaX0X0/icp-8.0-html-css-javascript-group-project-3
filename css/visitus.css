@@ -3,19 +3,22 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#FAEED1;
+    background-color:white;
 }
-
+.title-contener
+{
+    text-align: center;
+    font-size: 2.5vw;
+}
 
 
 main {
     padding: 1rem;
 }
 
-.info, .map, .contact-form{
+.info, .map .contact-form{
     margin: 1rem 0;
     padding: 1rem;
-    background-color: #DED0B6;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -25,7 +28,7 @@ h2 {
 }
 
 iframe {
-    width: 100%;
+    width: 50%;
     height: 400px;
     border: none;
     border-radius: 8px;
@@ -72,15 +75,30 @@ button:hover {
 .receiver{
     width: 300px;
     font-size: 20px;
+    transition: 0.5s;
 
+}
+.receiver:hover
+{
+    transform: scale(1.05);
 }
 .gmail{
     width: 300px;
     font-size: 20px;
+    transition: 0.5s;
+}
+.gmail:hover
+{
+    transform: scale(1.05);
 }
 .google-maps{
     width: 300px;
     font-size: 20px;
+    transition: 0.5s;
+}
+.google-maps:hover
+{
+    transform: scale(1.05);
 }
 .font-contact-platform{
     font-size: 20px;
@@ -91,35 +109,19 @@ button:hover {
 .contact-form{
     width: 500px;
     height: 400px;
-    margin-left:60vh ;
-    margin-top: 10px;
     margin-bottom: 10px;
+    padding: 20px;
+    display: block;
+    margin: 30px auto;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
+    transition: 0.5s;
+}
+.contact-form:hover
+{
+    transform: scale(1.05);
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    background-color: #607274;
-    height: 80px;
-    align-items: center;
-}
-
-.nav-text {
-    font-size: 20px;
-    height: 50px;
-    width: 100px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.nav-text:hover {
-    font-size: 22px;
-}
-
-.nav-anchor {
-    text-decoration: none;
-    color: black;
-}
 
 .logo {
     border-radius: 50%;
@@ -152,15 +154,3 @@ button:hover {
      min-width: 250px;
      padding: 10px;
 }
-.footer{
-    background-color: #607274; 
-    color: #fff; 
-    padding: 20px 0;
-}
-
-@media screen and (min-width:300px ) and (max-width:1100px)  {
-    .contact-form {
-    display: none;
-    margin-right:60vh ;
-    }
-  }
