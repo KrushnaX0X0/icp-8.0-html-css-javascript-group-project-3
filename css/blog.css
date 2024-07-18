@@ -108,3 +108,12 @@
     background-color: #ebf0fa;
 
 }
+.buy-product-link{
+    font-size: 30px;
+}
+.buy-product{
+    display: block;
+    margin:60px auto;
+    text-align: center;
+
+}
