@@ -8,7 +8,6 @@
 }
 .blog-title{
     width:400px;
-    height:700px;
     border:1px solid rgb(242, 242, 242);
     border-radius: 30px;
     box-shadow: 0 0  10px 0 rgba(0,0,0,0.25);
@@ -24,8 +23,9 @@
 }
 .blog-btn{
     border:none;
-    border:1px solid rgb(242, 242, 242);
+    border:1px solid black;
     border-radius:10px 0 10px 0;
+    background-color:rgb(255, 240, 230) ;
     padding:10px;
     margin-left: 20px;
     font-size: 20px;
@@ -46,8 +46,9 @@
 }
 .more-info-btn{
     border:none;
-    border:1px solid rgb(242, 242, 242);
+    border:1px solid black;
     border-radius:30px;
+    background-color:rgb(255, 240, 230) ;
     padding:15px;
     font-size: 20px;
     cursor: pointer;
