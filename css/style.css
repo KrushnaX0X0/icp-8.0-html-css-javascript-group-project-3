@@ -72,9 +72,9 @@ transform: scale(1.03)
     color: #0d0d25;
 }
 #page2{
-    height: 200vh;
+    height: 130vh;
     width: 100%;
-    border: 2px solid red;
+    
 }
 #page2 h1{
     text-align: center;
