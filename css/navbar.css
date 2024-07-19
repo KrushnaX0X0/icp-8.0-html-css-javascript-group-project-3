@@ -1,0 +1,76 @@
+.navbar{
+    display: block;
+    position: relative;
+    margin: 10px;
+    height: 120px;
+    width: 1500px;
+    background-color:  #ffcccc;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Home{
+    color: black; 
+    text-decoration: none; 
+    margin-left: 70px; 
+    padding: 1px;
+    cursor: pointer;
+
+}
+.Home:hover{
+    color: white;
+}
+.Sociamedia{
+    display: inline;
+    height: 35px;
+    margin-top: 50px;
+    margin-right: 0px;
+    justify-items: flex-start;
+    cursor: pointer;
+}
+.logo{
+    width: 120px;
+}
+.app-container{
+    text-align: center;
+    color: white;
+}
+
+
+.button-container{
+    justify-content: center;
+    display: flex;
+}
+.btn-toggle{
+    margin: 10px 30px;
+    width: 100px;
+    cursor: pointer;
+    padding: 7px 0px;
+}
+.theme-select-icon{
+ height: 30px;
+ cursor: pointer;
+
+}
+.theme-select-container{
+    position: fixed;
+    right: 25px;
+    top: 15px;
+}
+.bg-dark{
+    background-color: black;
+    color: white;
+}
+.bg-light{
+    color: black;
+    background-color: white;
+}
+.btn-dark{
+    color: white;
+    background-color: rgb(108, 28, 182);
+}
+.btn-light{
+    color: black;
+    background-color: yellow;
+}
