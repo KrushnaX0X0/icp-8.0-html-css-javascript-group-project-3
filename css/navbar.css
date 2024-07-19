@@ -2,8 +2,10 @@
     background-color: white;
 }
 .navbar{
-    display: block;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
     margin: 10px;
     height: 120px;
     width: 1500px;
@@ -15,8 +17,14 @@
     box-shadow: 0 10px 55px #d4d4d4;
     border-radius: 15px;
     
+    
 
     
+}
+.navbar-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Home{
     color: black; 
@@ -64,8 +72,8 @@
 }
 .theme-select-container{
     position: fixed;
-    right: 25px;
-    top: 15px;
+    right: 35px;
+    top: 20px;
 }
 .bg-dark{
     background-color: black;
