@@ -79,97 +79,100 @@ transform: scale(1.03)
 #page2 h1{
     text-align: center;
 }
+.page2-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #card-continer{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex; 
+    margin: 25vh 0px;
     display: flex;
     justify-content: space-evenly;
-    margin: 25vh 0px;
 }
 .card{
-    height: 90vh;
-    width: 25vw;
-   position: relative;
-    border-radius: 20px;
+    height: 85vh;
+    width: 22vw;
+    border-radius: 30px;
+    
+    
     background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #eeeaea;
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
     transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+   
+    position: relative;
 }
 .card:hover{
     transform: scale(1.03);
+     box-shadow: 20px 20px 45px #aaa6a6; ;
+}
+.card-img{
+    position: absolute;
+    top: -100px;
+    left: 39px;
 }
 .card-img img{
-    height: 34vh;
-    width: 19vw;
-    position: absolute;
-    top: -80px;
-    left: 39px; 
+    height: 31vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
     border-radius: 50%;
-    overflow: hidden;
-    
+ 
+
 }
-.dish-rating {
-    font-size: 20px;
-    position: absolute;
-    top: 160px;
-    left: 150px;
+.dish-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    
+    font-size: 1.5vw;
 }
 .info{
-    position: absolute;
-    top: 160px;
-    
-   
-
-}
-.info h3{
-    font-size: 2.8vw;
     text-align: center;
+    font-size: 2vw;
+    
 }
 .info p{
-    text-align: center;
-   color:  #bfbfbf;
-}
-.info b{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    color: #b6a8a8;
 }
 .quentity{
-    width: 100%;
-    position: absolute;
-    bottom: 130px;
-   
     display: flex;
-    justify-content: space-around;
+    text-align: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: space-around;
+   
 }
-.quentity img{
-        
-    cursor: pointer;
+.que{
+    
+    text-align: center;
+}
+.quentity p{
+    font-size: 1vw;
 }
 #product-quentity{
-    font-size:2vw ;
+    font-size: 1.5vw;
+}
+.prise{
+   
 }
 .prise p{
-    width: 100%;
-    position: absolute;
-    bottom: 80px;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
-   
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .order-btn{
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+  
 }
 
 
