@@ -112,7 +112,8 @@ transform: scale(1.03)
 .card-img{
     position: absolute;
     top: -100px;
-    left: 39px;
+    
+    
 }
 .card-img img{
     height: 31vh;
@@ -254,6 +255,11 @@ transform: scale(1.03)
         height: 70vh;
         width: 82vw;
         margin-top: 150px;
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .dish-rating{
         font-size: 4.5vw;
