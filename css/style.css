@@ -1,9 +1,14 @@
+
 body{
     background-color: #f3f3f5;
     
 }
 .tital-continer{
-    height: 6px;
+
+    
+
+    height: 90vh;
+
     margin: 8vh 0px;
     margin-left: 20px;
     display: flex;
@@ -69,12 +74,16 @@ transform: scale(1.03)
 .btn:hover{
     border-color: #0d0d25;
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
-    color: #0d0d25;
+   color:#0d0d25;
 }
 #page2{
     height: 130vh;
     width: 100%;
     
+}
+#page2-btn a{
+    border: none;
+
 }
 #page2 h1{
     text-align: center;
@@ -112,7 +121,11 @@ transform: scale(1.03)
 .card-img{
     position: absolute;
     top: -100px;
-    left: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 .card-img img{
     height: 31vh;
@@ -161,9 +174,7 @@ transform: scale(1.03)
 .product-quentity{
     font-size: 1.5vw;
 }
-.prise{
-   
-}
+
 .prise p{
     display: flex;
     align-items: center;
@@ -207,9 +218,7 @@ transform: scale(1.03)
 
 
 @media screen and (max-width:480px) {
-    body{
-        
-    }
+    
     .tital-continer{
         height: 85vh;
         display: flex;
@@ -254,6 +263,12 @@ transform: scale(1.03)
         height: 70vh;
         width: 82vw;
         margin-top: 150px;
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .dish-rating{
         font-size: 4.5vw;
@@ -300,5 +315,3 @@ transform: scale(1.03)
 
 
  
-
-
