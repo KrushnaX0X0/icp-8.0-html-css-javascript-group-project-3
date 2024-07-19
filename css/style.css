@@ -3,7 +3,7 @@ body{
     
 }
 .tital-continer{
-    height:;
+    height: 6px;
     margin: 8vh 0px;
     margin-left: 20px;
     display: flex;
@@ -66,17 +66,130 @@ transform: scale(1.03)
     
     background: rgb(243, 243, 245)
 }
-.title-btn button:hover{
+.btn:hover{
     border-color: #0d0d25;
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
     color: #0d0d25;
 }
 #page2{
-    height: 100vh;
-    margin: 20vh 0px;
-    border: 2px solid red;
+    height: 130vh;
+    width: 100%;
+    
 }
-#page2 h6{text-align: center;
+#page2 h1{
+    text-align: center;
+}
+.page2-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-continer{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex; 
+    margin: 25vh 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 85vh;
+    width: 22vw;
+    border-radius: 30px;
+    
+    
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+   
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.03);
+     box-shadow: 20px 20px 45px #aaa6a6; ;
+}
+.card-img{
+    position: absolute;
+    top: -100px;
+    left: 39px;
+}
+.card-img img{
+    height: 31vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
+    border-radius: 50%;
+ 
+
+}
+.dish-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    
+    font-size: 1.5vw;
+}
+.info{
+    text-align: center;
+    font-size: 2vw;
+    
+}
+.info p{
+    font-size: 1.5vw;
+    color: #b6a8a8;
+}
+.quentity{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.quentity img{
+    cursor: pointer;
+}
+.que{
+    
+    text-align: center;
+}
+.quentity p{
+    font-size: 1.5vw;
+}
+.product-quentity{
+    font-size: 1.5vw;
+}
+.prise{
+   
+}
+.prise p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+.order-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+#page3{
+    height: 60vh;
+    margin: 20vh 0px;
+}
+#compani-iteam{
+    display: flex;
+    justify-content: space-evenly;
+}
+   
+#page3 h6{
+    text-align: center;
     
     font-size: 2vw;
     color:    rgb(146, 128, 128);
@@ -93,18 +206,99 @@ transform: scale(1.03)
 }
 
 
-.page3{
-    height:100vh;
-    width: 100%;
-    font-family: gily-roy;
-    position: relative;
-   
- }
+@media screen and (max-width:480px) {
+    body{
+        
+    }
+    .tital-continer{
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
 
- .page3 video{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
- }
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 409vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin: 0px;
+      
+    }
+    .card{
+        height: 70vh;
+        width: 82vw;
+        margin-top: 150px;
+    }
+    .dish-rating{
+        font-size: 4.5vw;
+    }
+    .info h3{
+        font-size: 6vw;
+    }
+    .info p{
+        font-size: 4vw;
+    }
+    .que{
+        font-size: 5vw;
+    }
+    .quentity p{
+        font-size: 4.5vw;
+    }
+    .prise p{
+        font-size: 5vw;
+    }
+    .btn{
+        width: 42vw;
+        font-size: 3.5vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 171vh;
+        margin: 0px;
+        
+    }
+
+    #compani-iteam{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+ 
 
 
