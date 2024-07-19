@@ -106,62 +106,7 @@ transform: scale(1.03)
     width: 100%;
     object-fit: fill;
  }
- .navbar{
-    display: flex;
-    justify-content: space-around;
-    background-color: #FFD3B6;
-    height: 80px;
-    align-items: center;
- }
- .nav-text{
-    text-decoration: none;
-    color: black;
-    font-size: larger;
- }
- 
-    
-.container{
-    height: 350px;
-            width: 100%;
-            display: flex;
-            background-color: #F5F7F8;
-            padding: 5px;
-            border-radius: 5px;
-            padding-top: 20px;
-            padding-right: 50px;
-            justify-content: space-evenly;
-}
-.child-container{
-    text-align: center;
-    font-size: larger;
-    font-family: cursive;
-    border-radius: 3px;
 
-    background-color: #FFCBCB;
-    height: 300px;
-    width: 350px;
-    justify-content: space-between;
-    flex-direction: row;
-    border-radius: 10px;
-    border: solid #7AB2B2;
-}
-
-    .btn {
-        border-radius: 2px;
-        border: none;
-        background-color: #7AB2B2;
-        height: 40px;
-        width: 85px;
-        color: black;
-        justify-content: center;
-        padding-bottom: 10px;
-        align-items: center;
-    }
-
-    .btn:hover {
-        transition: 1s;
-        transform: scale(1.1);
-}
 
  
 
