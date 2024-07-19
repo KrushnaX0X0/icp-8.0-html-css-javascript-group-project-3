@@ -148,14 +148,17 @@ transform: scale(1.03)
     justify-content: space-around;
    
 }
+.quentity img{
+    cursor: pointer;
+}
 .que{
     
     text-align: center;
 }
 .quentity p{
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
-#product-quentity{
+.product-quentity{
     font-size: 1.5vw;
 }
 .prise{
@@ -176,23 +179,8 @@ transform: scale(1.03)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #page3{
-    height: 100vh;
+    height: 60vh;
     margin: 20vh 0px;
 }
 #compani-iteam{
@@ -215,6 +203,96 @@ transform: scale(1.03)
 .iteam:hover{
     transform: scale(1.2)
 
+}
+
+
+@media screen and (max-width:480px) {
+    body{
+        
+    }
+    .tital-continer{
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
+
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 409vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin: 0px;
+      
+    }
+    .card{
+        height: 70vh;
+        width: 82vw;
+        margin-top: 150px;
+    }
+    .dish-rating{
+        font-size: 4.5vw;
+    }
+    .info h3{
+        font-size: 6vw;
+    }
+    .info p{
+        font-size: 4vw;
+    }
+    .que{
+        font-size: 5vw;
+    }
+    .quentity p{
+        font-size: 4.5vw;
+    }
+    .prise p{
+        font-size: 5vw;
+    }
+    .btn{
+        width: 42vw;
+        font-size: 3.5vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 171vh;
+        margin: 0px;
+        
+    }
+
+    #compani-iteam{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
