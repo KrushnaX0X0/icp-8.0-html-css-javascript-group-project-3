@@ -109,7 +109,7 @@
 
 }
 .buy-product-link{
-    font-size: 30px;
+    font-size:xx-large;
     color:rgb(51, 102, 204);
     background-color: #ebf0fa;
 }
@@ -117,12 +117,347 @@
     display: block;
     margin:60px auto;
     text-align: center;
-    border:1px solid black;
+    border:1px solid rgb(51, 102, 204);
     border-radius: 10px 0px 10px 0px;
-    padding:20px 30px;
-  
+    padding:20px 35px;
     
 }
 .buy-product-link:hover{
     color:rgb(255, 51, 0);
 }
+
+ /* for small device*/
+ @media screen and (max-width:600px){
+    .blog-btn{
+        margin:10px auto;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: x-large;
+        margin-left:150px;
+    }
+    .blog-heading{
+        font-size:30px;
+        margin-left: -70px;
+       
+    }
+    
+    .blog-card{
+        margin-top:20px;
+        margin-left:-30px;
+        display: flex;
+        margin:50px;
+        flex-direction: column;
+        
+    }
+    .blog-title{
+        width:300px;
+        border-radius:10px;
+        margin-left:100px;
+        margin:30px;
+    }
+    .blog-img{
+        width:250px;
+       
+        margin:10px auto;
+        border-radius:10px;
+        
+    }
+    .blog-date-btn{
+        padding:10px;
+        margin-left: 20px;
+        font-size:15px;
+    }
+    .blog-message{
+        font-size:large;
+    
+    }
+    .food-info{
+        font-size:20px;
+        margin-top: -10px;
+        padding:5px 10px;
+    }
+    .more-info-btn{
+        border-radius:10px;
+        padding:10px;
+        font-size: 15px;
+        margin-left: 20px;
+    }   
+
+    .btn-quantity{
+        height:30px;
+        margin-top: 10px;
+    }
+    .quantity-text{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .btn{
+        padding:5px 10px;
+        border-radius:10px 0 10px 0;
+    }
+    .buy-product-link{
+        font-size:15px;
+
+    }
+    .buy-product{
+        border-radius: 5px 0px 5px 0px;
+        padding:20px 30px;
+        margin-left:130px;
+      
+        
+    }
+
+ }
+   /* for normal device*/
+   @media screen and (min-width:601px) and (max-width:768px){
+    .blog-btn{
+        margin:30px auto;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: x-large;
+        margin-left:150px;
+    }
+    .blog-heading{
+        font-size:30px;
+        margin-left: -70px;
+       
+    }
+    
+    .blog-card{
+        margin-top:20px;
+        margin-left:-30px;
+        display: flex;
+        margin:50px;
+        flex-direction: column;
+        
+    }
+    .blog-title{
+        width:500px;
+        border-radius:30px;
+        margin-left:100px;
+        margin:30px;
+    }
+    .blog-img{
+        width:450px;
+       
+        margin:10px auto;
+        border-radius:30px;
+        
+    }
+    .blog-date-btn{
+        padding:10px;
+        margin-left: 20px;
+        font-size:18px;
+    }
+    .blog-message{
+        font-size:x-large;
+    
+    }
+    .food-info{
+        font-size:20px;
+        margin-top: -10px;
+        padding:5px 10px;
+    }
+    .more-info-btn{
+        border-radius:10px;
+        padding:10px;
+        font-size: 18px;
+        margin-left: 20px;
+    }   
+    .btn-quantity{
+        height:40px;
+        margin-top: 10px;
+    }
+    .quantity-text{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .btn{
+        padding:10px 20px;
+        border-radius:10px 0 10px 0;
+    }
+    .buy-product-link{
+        font-size:20px;
+
+    }
+    .buy-product{
+        border-radius: 10px 0px 10px 0px;
+        padding:20px 30px;
+        margin-left:130px;
+      
+        
+    }
+
+
+   }
+
+     /* for tablet device*/
+     @media screen and (min-width:769px) and (max-width:992px){
+
+        .blog-btn{
+            margin:30px auto;
+            border-radius:15px;
+            padding: 5px 10px;
+            font-size: x-large;
+            display: flex;
+            margin:30px auto;
+        }
+        .blog-heading{
+            font-size:50px;
+            margin-left: -70px;
+           
+        }
+        
+        .blog-card{
+            margin-top:20px;
+            margin-left:-30px;
+            display: flex;
+            margin:50px;
+            flex-direction: column;
+           
+            
+        }
+        .blog-title{
+            border-radius:30px;
+            margin-left:100px;
+            margin:30px;
+            width:80%;
+            display: block;
+            margin:40px auto;
+        }
+        .blog-img{
+            width:70%;
+            margin:30px auto;
+            border-radius:30px;
+            
+        }
+        .blog-date-btn{
+            padding:10px;
+            margin-left:40px;
+            font-size:18px;
+        }
+        .blog-message{
+            font-size:xx-large;
+        
+        }
+        .food-info{
+            font-size:25px;
+            margin-top: -10px;
+            padding:5px 10px;
+        }
+        .more-info-btn{
+            border-radius:10px;
+            padding:10px;
+            font-size: 18px;
+            margin-left:40px;
+        }   
+        .btn-quantity{
+            height:60px;
+            margin-top: 20px;
+        }
+        .quantity-text{
+            font-size: 60px;
+            margin-top: 20px;
+        }
+        .btn{
+            padding:10px 30px;
+            border-radius:10px 0 10px 0;
+        }
+        .buy-product-link{
+            font-size:25px;
+    
+        }
+        .buy-product{
+            border-radius: 10px 0px 10px 0px;
+            padding:20px 30px;
+            margin-left:130px;
+          
+            
+        }
+    
+    
+       }
+
+      /* for large device*/
+      @media screen and (min-width:993px) and (max-width:1200px){
+        .blog-btn{
+            margin:30px auto;
+            border-radius:15px;
+            padding: 5px 10px;
+            font-size: x-large;
+            display: flex;
+            margin:30px auto;
+        }
+        .blog-heading{
+            font-size:50px;
+            margin-left: -70px;
+           
+        }
+        
+        .blog-card{
+            margin-top:20px;
+            margin-left:-30px;
+            display: flex;
+            margin:50px;
+            flex-direction: column;
+           
+            
+        }
+        .blog-title{
+            border-radius:30px;
+            margin-left:100px;
+            margin:30px;
+            width:80%;
+            display: block;
+            margin:40px auto;
+        }
+        .blog-img{
+            width:70%;
+            margin:30px auto;
+            border-radius:30px;
+            
+        }
+        .blog-date-btn{
+            padding:10px;
+            margin-left:40px;
+            font-size:18px;
+        }
+        .blog-message{
+            font-size:xx-large;
+        
+        }
+        .food-info{
+            font-size:25px;
+            margin-top: -10px;
+            padding:5px 10px;
+        }
+        .more-info-btn{
+            border-radius:10px;
+            padding:10px;
+            font-size: 18px;
+            margin-left:40px;
+        } 
+        .btn-quantity{
+            height:60px;
+            margin-top: 20px;
+        }
+        .quantity-text{
+            font-size: 60px;
+            margin-top: 20px;
+        }
+        .btn{
+            padding:10px 30px;
+            border-radius:10px 0 10px 0;
+        }
+        .buy-product-link{
+            font-size:25px;
+       }
+        .buy-product{
+            border-radius: 10px 0px 10px 0px;
+            padding:20px 30px;
+            margin-left:130px;
+          
+            
+        }  
+    
+      }
