@@ -110,13 +110,19 @@
 }
 .buy-product-link{
     font-size: 30px;
+    color:rgb(51, 102, 204);
+    background-color: #ebf0fa;
 }
 .buy-product{
     display: block;
     margin:60px auto;
     text-align: center;
+    border:1px solid black;
+    border-radius: 10px 0px 10px 0px;
+    padding:20px 30px;
+  
+    
 }
 .buy-product-link:hover{
     color:rgb(255, 51, 0);
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
 }
