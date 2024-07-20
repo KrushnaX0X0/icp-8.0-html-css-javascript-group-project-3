@@ -208,6 +208,7 @@ transform: scale(1.03)
 .iteam{
     height: 34vh;
     transition: 1.5s;
+    object-fit: fill;
  
 }
 
@@ -303,11 +304,335 @@ transform: scale(1.03)
         margin: 0px;
         
     }
+    #page3 h6{
+        font-size: 5vw;
+    }
 
     #compani-iteam{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    .iteam {
+        width: 73vw;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:721px) {
+    .tital-continer{
+        height: 52vh;
+      
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
+
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 235vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin:0px;
+      
+    }
+    .card{
+        height: 84vh;
+        width: 40vw;
+        margin-top: 20vh;
+        
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dish-rating{
+        font-size: 3.5vw;
+    }
+    .info h3{
+        font-size: 4vw;
+    }
+    .info p{
+        font-size: 3vw;
+    }
+    .que{
+        font-size: 3.5vw;
+    }
+    .quentity p{
+        font-size: 4vw;
+    }
+    .prise p{
+        font-size: 3.5vw;
+    }
+    .btn{
+        width: 27vw;
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 171vh;
+        margin: 0px;
+        
+    }
+    #page3 h6{
+        font-size: 5vw;
+    }
+
+    #compani-iteam{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+    
+        
+    }
+    .iteam {
+        width: 40vw;
+    }
+
+}
+
+@media screen and (min-width:722px) and (max-width:1015px){
+    .tital-continer{
+        height: 52vh;
+      
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
+
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 235vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin:0px;
+      
+    }
+    .card{
+        height: 88vh;
+        width: 33vw;
+        margin-top: 20vh;
+        
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dish-rating{
+        font-size: 3vw;
+    }
+    .info h3{
+        font-size: 3vw;
+    }
+    .info p{
+        font-size: 2.5vw;
+    }
+    .que{
+        font-size: 2vw;
+    }
+    .quentity p{
+        font-size: 3vw;
+    }
+    .prise p{
+        font-size: 2.5vw;
+    }
+    .btn{
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 171vh;
+        margin: 0px;
+        
+    }
+    #page3 h6{
+        font-size: 5vw;
+    }
+
+    #compani-iteam{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+    
+        
+    }
+    .iteam {
+        width: 40vw;
+    }   
+    
+}
+
+@media screen and (min-width:1016px) and (max-width:1115px){
+    .tital-continer{
+        height: 52vh;
+      
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
+
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 256vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin:0px;
+      
+    }
+    .card{
+        height: 99vh;
+        width: 28vw;
+        margin-top: 20vh;
+        
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dish-rating{
+        font-size: 3vw;
+    }
+    .info h3{
+        font-size: 3vw;
+    }
+    .info p{
+        font-size: 2.5vw;
+    }
+    .que{
+        font-size: 2vw;
+    }
+    .quentity p{
+        font-size: 3vw;
+    }
+    .prise p{
+        font-size: 2.5vw;
+    }
+    .btn{
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 171vh;
+        margin: 0px;
+        
+    }
+    #page3 h6{
+        font-size: 5vw;
+    }
+
+    #compani-iteam{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+    
+        
+    }
+    .iteam {
+        width: 25vw;
+    }  
+
 }
 
 
