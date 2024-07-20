@@ -3,14 +3,15 @@
     background-blend-mode: overlay;
     box-sizing: inherit;
     background-color: #232533;
-    position: sticky;
+    
     background-position: 50% 50%;
     background-size: cover;
     height: 350px;
     width: 1500px; 
     display: flex;  
-    margin-top: 150px;
-    position: fixed; 
+    margin-top: 350px;
+    position: fixed;
+ 
 }
 
 .FooterAdd{
