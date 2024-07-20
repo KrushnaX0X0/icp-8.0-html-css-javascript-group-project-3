@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Us</title>
+    <link rel="stylesheet" href="./../css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>About-Us</h1>
+            <p class="intro-name"><span class="red"> The </span> Sassy Spoon</p>
+            <p> Pune is a modern Indian restaurant located in Koregaon Park</p>
+        </div>
+        <div class="img-main">
+            <div class="img-big">
+                <img src="./../img/about-img/2.png" alt="img" id="main-img" class="main-img">
+            </div>
+            <div class="img-sm">
+                <img src="./../img/about-img/1.png" alt="img" onclick="imgchanger(1)">
+                <img src="./../img/about-img/3.png" alt="img" onclick="imgchanger(2)">
+                <img src="./../img/about-img/2.png" alt="img" onclick="imgchanger(3)">
+                <img src="./../img/about-img/4.png" alt="img" onclick="imgchanger(4)">
+                <img src="./../img/about-img/5.png" alt="img" onclick="imgchanger(5)">
+            </div>
+        </div>
+        <div class="info-story">
+            <span class="red"> T</span>he Sassy Spoon Pune is a modern Indian restaurant located in Koregaon Park,
+                Pune. It offers a wide variety of Indian dishes, including vegetarian and gluten-free options. The
+                restaurant has a casual and inviting atmosphere, and it is a popular spot for both locals and tourists.
+        </div>
+        <div class="btn-container">
+            <div class="btn-box">
+                <button class="key" onclick="output(1)">Butter Chicken</button>
+                <button class="key" onclick="output(2)">Dal Makhani</button>
+                <button class="key" onclick="output(3)">Palak Paneer</button>
+                <button class="key" onclick="output(4)">Biryani</button>
+            </div>
+            <div class="op" id="op">
+                The Sassy Spoon Pune is open for lunch and dinner, and it is closed on Mondays. The restaurant accepts reservations, and it is recommended to make one, especially on weekends.
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        let mainImg = document.getElementById("main-img")
+        function imgchanger(num) {
+            switch (num) {
+                case 1:
+                    mainImg.src = "./../img/about-img/1.png"
+                    break;
+                case 2:
+                    mainImg.src = "./../img/about-img/3.png"
+                    break;
+                case 3:
+                    mainImg.src = "./../img/about-img/2.png"
+                    break;
+                case 4:
+                    mainImg.src = "./../img/about-img/4.png"
+                    break;
+                case 5:
+                    mainImg.src = "./../img/about-img/5.png"
+                    break;
+                default:
+                    break;
+            }
+        }
+        let outp = document.getElementById("op")
+        function output(nums) {
+            switch (nums) {
+                case 1:
+                    outp.innerHTML =
+        
+        <ol>
+        <li>Chicken (boneless or bone-in): 500g </li>
+        <li>Butter: 50g</li>
+        <li>Onion: 2, chopped and 1 Tomato</li>
+        <li>Ginger-garlic paste: 1 tablespoon</li>
+        <li>Turmeric Powder,chili Powder: 1/2 teaspoon</li>
+        <li>Heavy cream: 1/2 cup</li>
+        </ol>
+        
+                    
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

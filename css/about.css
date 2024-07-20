@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(145deg, #ececec, #ffffff); */
+}
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container h1 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6vh;
+    border-bottom: solid black 2px;
+    display: inline;
+    margin-bottom: 20px;
+}
+.info-story {
+    width: 500px;
+}
+.intro .intro-name {
+    font-weight: 600;
+    font-size: 4.5vh;
+}
+.intro p{
+    font-size: 16px;
+}
+.container p {
+    font-size: 4vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.img-main{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-big {
+    margin: 1px auto;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-big .main-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+.arrow{
+    height: 55px;
+    margin: 60px;
+    
+}
+.img-sm{
+    height: 10vh;
+    margin: 10px auto;
+    display: flex;
+}
+
+.img-sm img{
+    height: 100%;
+    margin: 2px 7px;
+    border-radius: 15px;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+.info-story{
+    height: 200px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.red{
+    color: red;
+    font-weight: 550;
+    font-size: 35px;
+}
+.btn-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.btn-box{
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn-box button{
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    border-radius: 15px;
+    box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    background: rgb(243, 243, 245)
+
+}
+.btn-box button:hover{
+    border-color: #0d0d25;
+    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+    color:#0d0d25;
+    transition: 0.3s;
+}
+.op{
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+}
