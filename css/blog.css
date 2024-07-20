@@ -179,15 +179,11 @@
  /* for small device*/
  @media screen and (max-width:600px){
     .blog-btn{
-        margin:10px auto;
         border-radius: 10px;
-        padding: 5px 10px;
         font-size: x-large;
-        margin-left:150px;
     }
     .blog-heading{
         font-size:30px;
-        margin-left: -70px;
        
     }
     
@@ -207,8 +203,7 @@
     }
     .blog-img{
         width:250px;
-       
-        margin:10px auto;
+       margin:10px auto;
         border-radius:10px;
         
     }
@@ -265,11 +260,12 @@
         border-radius: 10px;
         padding: 5px 10px;
         font-size: x-large;
-        margin-left:150px;
+        margin-left:300px;
+      
     }
     .blog-heading{
-        font-size:30px;
-        margin-left: -70px;
+        font-size:35px;
+        margin-left: -30px;
        
     }
     
@@ -282,22 +278,21 @@
         
     }
     .blog-title{
-        width:500px;
+        width:100%;
         border-radius:30px;
         margin-left:100px;
         margin:30px;
     }
     .blog-img{
-        width:450px;
-       
-        margin:10px auto;
+        width:70%;
+       margin:10px auto;
         border-radius:30px;
         
     }
     .blog-date-btn{
         padding:10px;
         margin-left: 20px;
-        font-size:18px;
+        font-size:20px;
     }
     .blog-message{
         font-size:x-large;
@@ -333,7 +328,7 @@
     .buy-product{
         border-radius: 10px 0px 10px 0px;
         padding:20px 30px;
-        margin-left:130px;
+        margin-left:300px;
       
         
     }
@@ -346,15 +341,17 @@
 
         .blog-btn{
             margin:30px auto;
-            border-radius:15px;
+            border-radius:25px;
             padding: 5px 10px;
             font-size: x-large;
             display: flex;
             margin:30px auto;
+            margin-left:360px;
+      
         }
         .blog-heading{
             font-size:50px;
-            margin-left: -70px;
+            margin-left: -30px;
            
         }
         
@@ -376,7 +373,7 @@
             margin:40px auto;
         }
         .blog-img{
-            width:70%;
+            width:60%;
             margin:30px auto;
             border-radius:30px;
             
@@ -384,21 +381,21 @@
         .blog-date-btn{
             padding:10px;
             margin-left:40px;
-            font-size:18px;
+            font-size:20px;
         }
         .blog-message{
             font-size:xx-large;
         
         }
         .food-info{
-            font-size:25px;
+            font-size:20px;
             margin-top: -10px;
             padding:5px 10px;
         }
         .more-info-btn{
-            border-radius:10px;
+            border-radius:15px;
             padding:10px;
-            font-size: 18px;
+            font-size: 20px;
             margin-left:40px;
         }   
         .btn-quantity{
@@ -420,7 +417,7 @@
         .buy-product{
             border-radius: 10px 0px 10px 0px;
             padding:20px 30px;
-            margin-left:130px;
+            margin-left:360px;
           
             
         }
@@ -432,15 +429,17 @@
       @media screen and (min-width:993px) and (max-width:1200px){
         .blog-btn{
             margin:30px auto;
-            border-radius:15px;
+            border-radius:25px;
             padding: 5px 10px;
             font-size: x-large;
             display: flex;
             margin:30px auto;
+            margin-left:460px;
+      
         }
         .blog-heading{
             font-size:50px;
-            margin-left: -70px;
+            margin-left: -30px;
            
         }
         
@@ -455,14 +454,14 @@
         }
         .blog-title{
             border-radius:30px;
-            margin-left:100px;
+            margin-left:70px;
             margin:30px;
-            width:80%;
+            width:70%;
             display: block;
             margin:40px auto;
         }
         .blog-img{
-            width:70%;
+            width:50%;
             margin:30px auto;
             border-radius:30px;
             
@@ -470,23 +469,23 @@
         .blog-date-btn{
             padding:10px;
             margin-left:40px;
-            font-size:18px;
+            font-size:20px;
         }
         .blog-message{
             font-size:xx-large;
         
         }
         .food-info{
-            font-size:25px;
+            font-size:20px;
             margin-top: -10px;
             padding:5px 10px;
         }
         .more-info-btn{
-            border-radius:10px;
+            border-radius:15px;
             padding:10px;
-            font-size: 18px;
+            font-size: 20px;
             margin-left:40px;
-        } 
+        }   
         .btn-quantity{
             height:60px;
             margin-top: 20px;
@@ -501,13 +500,14 @@
         }
         .buy-product-link{
             font-size:25px;
-       }
+    
+        }
         .buy-product{
             border-radius: 10px 0px 10px 0px;
             padding:20px 30px;
-            margin-left:130px;
+            margin-left:460px;
           
             
-        }  
+        }
     
       }
