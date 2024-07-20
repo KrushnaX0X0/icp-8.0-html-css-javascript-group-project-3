@@ -93,7 +93,7 @@ p {
   text-align: justify;
 }
 
-.review-desc{
+.review-desc {
   display: flex;
   flex-direction: row;
 }
@@ -128,32 +128,299 @@ p {
   padding: 20px;
   padding-top: 15px;
   cursor: pointer;
-  margin-left:10px;
+  margin-left: 10px;
   margin-top: 70px;
   color: #fff;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
   transform: scale(1.05);
   transition: 1s;
   background-color: #333333;
 }
 
-
 /*Small Devices*/
-@media screen and (min-width: 300px) and (max-width: 599px){
-  
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  h3 {
+    font-size: 14px;
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .img-1 {
+    position: sticky;
+    margin-top: 0px;
+    height: 200px;
+  }
+
+  .review-cards {
+    height: 150px;
+    width: 250px;
+  }
+
+  .review-images {
+    height: 60px;
+    width: 60px;
+  }
+
+  .rating-img {
+    height: 30px;
+  }
+
+  span {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .review-box {
+    height: 30px;
+    width: 175px;
+    margin-left: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    height: 35px;
+    width: 70px;
+    padding: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+  }
 }
 
-
 /*Normal Devices*/
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  h3 {
+    font-size: 30px;
+    width: 250px;
+  }
 
+  h1 {
+    font-size: 30px;
+  }
+
+  .img-1 {
+    position: sticky;
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .review-cards {
+    height: 300px;
+    width: 400px;
+  }
+
+  .review-images {
+    height: 100px;
+    width: 100px;
+  }
+
+  .rating-img {
+    height: 70px;
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .review-box {
+    height: 40px;
+    width: 350px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-top: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .submit-btn {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
 }
 
 /*Tablet Devices*/
-@media screen and (min-width: 769px) and (max-width: 992px){
-  
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  h3 {
+    font-size: 40px;
+    width: 350px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .img-1 {
+    position: sticky;
+    margin-top: 0px;
+    height: 450px;
+  }
+
+  .review-cards {
+    height: 400px;
+    width: 550px;
+    margin: 90px;
+  }
+
+  .review-images {
+    height: 150px;
+    width: 150px;
+    margin-top: -100px;
+  }
+
+  .rating-img {
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  span {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .review-box {
+    height: 50px;
+    width: 400px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-top: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .submit-btn {
+    height: 70px;
+    width: 120px;
+    padding: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  h3 {
+    font-size: 45px;
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .img-1 {
+    position: sticky;
+    margin-top: 0px;
+    height: 500px;
+  }
+
+  .review-cards {
+    height: 450px;
+    width: 550px;
+  }
+
+  .review-box {
+    height: 50px;
+    width: 400px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-top: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .submit-btn {
+    height: 70px;
+    width: 120px;
+    padding: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+  .review-cards {
+    display: inline-block;
+    height: 300px;
+    width: 450px;
+    margin-top: 80px;
+  }
+
+  .img-1 {
+    position: sticky;
+    margin-top: 0px;
+    height: 450px;
+  }
+
+  .review-images {
+    height: 120px;
+    width: 120px;
+   margin-top: -190px;
+  }
+
+  .rating-img {
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .review-box {
+    height: 40px;
+    width: 550px;
+    margin-left: -150px;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .submit-btn {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 25px;
+  }
 }
