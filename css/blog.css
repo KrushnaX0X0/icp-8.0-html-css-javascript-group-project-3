@@ -16,12 +16,13 @@
 }
 .blog-heading{
     text-align: center;
-    font-size:50px;
+    font-size:35px;
+    color:rgb(59, 117, 171);
 }
 
 .blog-card{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     margin-top:60px;
     margin-left:-80px;
 }
@@ -83,7 +84,8 @@
 }
 .quantity-btn-container{
     display:flex;
-    justify-content:space-around;
+    justify-content: space-evenly;
+    
     text-align: center;
 }
 .btn-quantity{
@@ -124,6 +126,23 @@
 }
 .buy-product-link:hover{
     color:rgb(255, 51, 0);
+}
+.rate-butn{
+    padding:10px 30px;
+    display: block;
+    margin:30px auto;
+    border:none;
+    border-radius:10px;
+    border:1px solid black;
+    box-shadow: 0 0  10px 0 rgba(0,0,0,0.20);
+    cursor: pointer;
+    color:rgb(59, 117, 171);
+    background-color: rgb(217, 230, 242);
+    font-size: 20px;
+}
+.rate-butn:hover{
+    color:rgb(26, 140, 255);
+    background-color: rgb(230, 242, 255);
 }
 
  /* for small device*/
