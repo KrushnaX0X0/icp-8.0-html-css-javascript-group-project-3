@@ -27,10 +27,16 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
-    width: 200px;
+    width: 300px;
     text-align: center;
     padding: 20px;
 }
+
+.chef-card:hover {
+    transform: scale(1.03);
+    box-shadow: 20px 20px 45px #aaa6a6; ;
+}
+
 
 .chef-card img {
     width: 100%;
