@@ -33,6 +33,12 @@
     box-shadow: 0 0  10px 0 rgba(0,0,0,0.25);
     margin-left:100px;
     background-color:rgb(242, 242, 242);
+    transition:  0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+
+}
+.blog-title:hover{
+    transform: scale(1.03);
+    box-shadow:20px 20px 45px #aaa6a6;
 }
 .blog-img{
     width:400px;
@@ -114,6 +120,7 @@
     font-size:xx-large;
     color:rgb(51, 102, 204);
     background-color: #ebf0fa;
+    
 }
 .buy-product{
     display: block;
@@ -122,10 +129,18 @@
     border:1px solid rgb(51, 102, 204);
     border-radius: 10px 0px 10px 0px;
     padding:20px 35px;
+    transition:  0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    
+    
+}
+.buy-product:hover{
+    transform: scale(1.03);
+    box-shadow:20px 20px 45px #aaa6a6;
     
 }
 .buy-product-link:hover{
     color:rgb(255, 51, 0);
+   
 }
 .rate-butn{
     padding:10px 30px;
