@@ -27,8 +27,10 @@ function output(nums) {
     switch (nums) {
         case 1:
             outp.innerHTML = `
-                <h1>Butter Chicken recipe</h1>
+                <h1 class="head">Butter Chicken recipe</h1>
+                
                 <br>
+                
                 <ul style="list-style-type:none;">
                     <li>Chicken: 500g</li>
                     <li>Butter: 50g</li>
@@ -38,11 +40,13 @@ function output(nums) {
                     <li>Turmeric Powder, chili Powder: 1/2 teaspoon</li>
                     <li>Heavy cream: 1/2 cup</li>
                 </ul>
-            `;
+            <img src="./../img/about-img/11.jpg" alt="hii" class="img-recepi">
+                `;
+
             break;
         case 2:
             outp.innerHTML = `
-                <h1>Dal Makhani</h1>
+                <h1 class="head">Dal Makhani</h1>
                 <br>
                 <ul style="list-style-type:none;">
                     <li>Black lentils 1cup ,Kidney beans 1/2 cup,Butter: 50g</li>
@@ -52,11 +56,12 @@ function output(nums) {
                     <li>Fresh coriander leaves (cilantro): for garnish</li>
                     <li>Heavy cream: 1/4 cup</li>
                 </ul>
+                <img src="./../img/about-img/21.jpg" alt="hii" class="img-recepi">
             `;
             break;
         case 3:
             outp.innerHTML = `
-                <h1>Palak Paneer recipe </h1>
+                <h1 class="head">Palak Paneer recipe </h1>
                 <br>
                 <ul style="list-style-type:none;">
                     <li>Spinach: 500g</li>
@@ -66,12 +71,13 @@ function output(nums) {
                     <li>Fresh coriander leaves (cilantro): for garnish</li>
                     <li>Heavy cream: 1/4 cup</li>
                 </ul>
+                <img src="./../img/about-img/31.jpg" alt="hii" class="img-recepi">
             `;
             break;
         case 4:
             outp.innerHTML = `
             
-            <h1>Biryani recipe </h1>
+            <h1 class="head">Biryani recipe </h1>
             <br>
             <ul style="list-style-type:none;">
                 <li>Chicken: 500 grams, boneless pieces</li>
@@ -80,9 +86,10 @@ function output(nums) {
                 <li>Onion,Tomato & chili: 2,4</li>
                 <li>Ginger-Garlic Paste,biryani masala-2spoon</li>
                 <li>Turmeric powder & Red chili powder: 1/2 teaspoon</li>
-                <li>Heavy cream: 1/4 cup</li>
                 <li>Oil/Ghee :1/2cup</li>
             </ul>
+        
+            <img src="./../img/about-img/41.jpg" alt="hii" class="img-recepi">
         `;
             break;
         default:
