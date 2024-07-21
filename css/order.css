@@ -39,7 +39,7 @@ body {
     height: 500px;
     width: 650px;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px 5px #d39a50;
+    box-shadow: 2px 2px 5px 5px ;
 }
 
 html {
@@ -90,21 +90,21 @@ html {
 }
 
 .btn {
-    background-color: rgb(183, 120, 4);
-    border-radius: 10px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    border-radius: 15px;
+    box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
     border: none;
-    padding: 10px 13px;
-    font-weight: bold;
+    cursor: pointer;
+    
+    background: rgb(243, 243, 245)
 }
 
-.option-btn {
-    background-color: orange;
 
-}
 
-.delete-btn {
-    background-color: red;
-}
+
 
 .parent-container {
     display: flex;
@@ -136,4 +136,33 @@ html {
 
 a {
     text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .parent-container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        
+        
+    }
+    .container-img {
+        display: block;
+        height: 500px;
+        padding-top: 20px;
+        margin-right: 20px;
+    
+
+}
+.form-container {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(99, 137, 156);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px gray;
+
+    background-color: #DED0B6;
+    margin-top: 20px
+
+}
 }
