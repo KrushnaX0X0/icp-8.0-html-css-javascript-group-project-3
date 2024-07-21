@@ -57,6 +57,36 @@
 }
 
 @media screen and (max-width: 500px){
+    .Footer{
+        width: 450px;
+        height: 400px;
+    }
+    .img-footer{
+        height: 40px;
+
+    }
+    .FooterAdd{
+        font-size: 15px;
+        }
+    .OpenHours{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 15px;
+    }
+    .Reachus{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 15px;
+        margin-left: 0px;
+        padding-left: 2px;
+    }
 
 }
 
