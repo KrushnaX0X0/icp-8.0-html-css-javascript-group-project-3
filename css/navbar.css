@@ -17,34 +17,17 @@
     border-radius: 15px;
     position: fixed;   
 }
-.socialmedia{
-    height: 40px;
-    justify-content: space-around;
-    padding: auto;
-    cursor: pointer;
-    margin-top: 30px;
-}
+
 
 .navbar-socialmedia{
-    display: flex;
-    margin-top: 0px;
-    margin-left: 0;
-    height: 50px;
-    filter: drop-shadow(0 0 0.25rem rgb(239, 210, 210));
-    justify-content: space-between;
-    background-color: white;
-    flex-direction:row;
-    height: 100vh;
-    width: 90px;
-    margin-right: 10px;
-    border-radius: 15px;
-    position: fixed;
+    height: 35px;
+    margin-left: 10px;
     
 }
 .Home{
     color: black; 
     text-decoration: none; 
-    margin-left: 50px; 
+    margin-left: 35px; 
     padding: 1px;
     cursor: pointer;
 
