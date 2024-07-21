@@ -91,16 +91,105 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
+    .Footer{
+        width: 760px;
+        height: 350px;
+    }
+    .img-footer{
+        height: 40px;
+
+    }
+    .FooterAdd{
+        font-size: 15px;
+        }
+    .OpenHours{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 15px;
+    }
+    .Reachus{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 15px;
+        margin-left: 0px;
+        padding-left: 2px;
+    }
 
 
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    .Footer{
+        width: 990px;
+        height: 350px;
+    }
+    .img-footer{
+        height: 45px;
+
+    }
+    .FooterAdd{
+        font-size: 20px;
+        }
+    .OpenHours{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 20px;
+    }
+    .Reachus{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 2px;
+    }
 
 
 }
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
+    .Footer{
+        width: 1200px;
+        height: 350px;
+    }
+    .img-footer{
+        height: 50px;
 
+    }
+    .FooterAdd{
+        font-size: 25px;
+        }
+    .OpenHours{
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 25px;
+    }
+    .Reachus{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 25px;
+        margin-left: 0px;
+        padding-left: 30px;
+    }
 }
 
