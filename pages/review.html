@@ -68,9 +68,15 @@
      </div>
 
      <form class="review-desc">
-     <textarea id="review" name="review" rows="2" cols="50" class="review-box">Write Your Review Here....</textarea>
-     <button class="submit-btn" >Submit</button>
+     <textarea id="review" name="review" rows="2" cols="50" class="review-box" required>Write Your Review Here....</textarea>
+     <button class="submit-btn" onclick="greeting()">Submit</button>
     </form>
+
+    <script>
+      function greeting(){
+        alert(`Thank You For Your Response...❤️`);
+      }
+    </script>
     
   </body>
 </html>
