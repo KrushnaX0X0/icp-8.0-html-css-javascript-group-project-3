@@ -5,8 +5,16 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color:rgb(252,243,232);
+    ;
 }
+.header {
+    text-align:center;
+   
+} 
+    
+   
+
 
 .chef-cards-container {
     display: grid;

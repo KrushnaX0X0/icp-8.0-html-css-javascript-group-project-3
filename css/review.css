@@ -1,5 +1,6 @@
 body {
-  background-color: #e6e6e6;
+  background : rgb(252,243,23);
+  background: linear-gradient(264deg,rgba(252,243, 232,1)53%,rgba(255,255,255,1)100%);
 }
 
 h3 {
@@ -24,7 +25,7 @@ h1 {
 
 .img-1 {
   position: fixed;
-  left: 10px;
+  left: 0px;
 }
 
 .review-cards-container {
@@ -142,6 +143,74 @@ p {
   background-color: #333333;
 }
 
+.pop-up{
+  width: 400px;
+  background-color: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  visibility: hidden;
+  transition: transform 0.4s , top 0.4s;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.pop-up img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pop-up h2{
+   font-size: 38px;
+   font-weight: 500;
+   margin: 30px 0px 10px;
+}
+
+.pop-up button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0px;
+  background:#6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.right {
+  height: 50vh;
+  width: 40vw;
+  border-radius: 50%;
+  margin-top: 10vh;
+  margin-left: 10px;
+  overflow: hidden;
+  box-shadow: 8px 8px 30px rgb(27, 26, 26);
+  transition: 1s;
+
+}
+.right img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.img-h1{
+  color: #808080;
+}
+
 /*Small Devices*/
 @media screen and (min-width: 300px) and (max-width: 599px) {
   h3 {
@@ -167,6 +236,7 @@ p {
   .review-images {
     height: 60px;
     width: 60px;
+    object-fit: cover;
   }
 
   .rating-img {
@@ -200,6 +270,13 @@ p {
     margin-top: 30px;
     font-size: 12px;
   }
+
+  
+.right {
+  height: 20vh;
+  width: 70vw;
+  margin-top: 20px;
+}
 }
 
 /*Normal Devices*/
@@ -227,6 +304,7 @@ p {
   .review-images {
     height: 100px;
     width: 100px;
+    object-fit: cover;
   }
 
   .rating-img {
@@ -261,6 +339,12 @@ p {
     margin-top: 30px;
     font-size: 18px;
   }
+
+  .right {
+    height: 30vh;
+    width: 70vw;
+    margin-top: 20px;
+  }
 }
 
 /*Tablet Devices*/
@@ -276,7 +360,8 @@ p {
 
   .img-1 {
     position: sticky;
-    margin-top: 0px;
+    margin-top:0px;
+    margin-left: -90px;
     height: 450px;
   }
 
@@ -290,6 +375,7 @@ p {
     height: 150px;
     width: 150px;
     margin-top: -100px;
+    object-fit: cover;
   }
 
   .rating-img {
@@ -326,6 +412,12 @@ p {
     margin-top: 30px;
     font-size: 25px;
   }
+
+  .right {
+    height: 40vh;
+    width: 60vw;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -344,9 +436,38 @@ p {
     height: 500px;
   }
 
+  .img-h1{
+    position: sticky;
+    margin-top: 0px;
+    margin-right: -90px;
+  }
+
   .review-cards {
     height: 450px;
     width: 550px;
+    font-size: 30px;
+    margin-top: 90px;
+  }
+
+  .review-images {
+    height: 150px;
+    width: 150px;
+    margin-top: -50px;
+    object-fit: cover;
+  }
+
+  .rating-img {
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  span {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
   }
 
   .review-box {
@@ -368,6 +489,13 @@ p {
     margin-top: 30px;
     font-size: 25px;
   }
+
+  .right {
+    height: 50vh;
+    width: 70vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
@@ -388,6 +516,7 @@ p {
     height: 120px;
     width: 120px;
    margin-top: -190px;
+   object-fit: cover;
   }
 
   .rating-img {
@@ -424,4 +553,11 @@ p {
     margin-top: 25px;
     font-size: 25px;
   }
+
+  .right {
+    height: 50vh;
+    width: 70vw;
+    margin-top: 20px;
+  }
 }
+
