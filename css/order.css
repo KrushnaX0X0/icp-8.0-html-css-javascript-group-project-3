@@ -89,28 +89,12 @@ html {
     background-color: #FDF7E4;
 }
 
-.btn,
-.option-btn,
-.delete-btn,
-.white-btn {
-    display: inline-block;
-    padding: 1rem 3rem;
-    cursor: pointer;
-    color: #000;
-    font-size: 1.8rem;
-    text-transform: capitalize;
-}
-
-.btn:hover,
-.option-btn:hover,
-.delete-btn:hover {
-    background-color: #DED0B6;
-}
-
 .btn {
     background-color: rgb(183, 120, 4);
     border-radius: 10px;
     border: none;
+    padding: 10px 13px;
+    font-weight: bold;
 }
 
 .option-btn {
@@ -129,11 +113,6 @@ html {
     margin-top: 40px;
 }
 
-.btn:hover,
-.option-btn:hover,
-.delete-btn:hover {
-    background-color: #DED0B6;
-}
 
 .form-check {
     display: flex;
