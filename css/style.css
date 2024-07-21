@@ -115,8 +115,8 @@ transform: scale(1.03)
     position: relative;
 }
 .card:hover{
-    transform: scale(1.03);
-     box-shadow: 20px 20px 45px #aaa6a6; ;
+    transform: scale(1.02);
+     box-shadow: 20px 20px 45px #aaa6a6; 
 }
 .card-img{
     position: absolute;
@@ -146,6 +146,7 @@ transform: scale(1.03)
     font-size: 1.5vw;
 }
 .info{
+    height: 20vh;
     text-align: center;
     font-size: 2vw;
     
@@ -196,7 +197,8 @@ transform: scale(1.03)
 }
 #compani-iteam{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
 }
    
 #page3 h6{
@@ -213,7 +215,7 @@ transform: scale(1.03)
 }
 
 .iteam:hover{
-    transform: scale(1.2)
+    transform: scale(1.03)
 
 }
 
@@ -243,7 +245,7 @@ transform: scale(1.03)
 
     }
     #page2{
-        height: 409vh;
+        height: 440vh;
         width: 100%;
     }
     .right{
@@ -261,7 +263,7 @@ transform: scale(1.03)
       
     }
     .card{
-        height: 70vh;
+        height: 80vh;
         width: 82vw;
         margin-top: 150px;
     }
@@ -518,6 +520,8 @@ transform: scale(1.03)
         height: 100vh;
         width: 100%;
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         overflow: hidden;
         
@@ -525,7 +529,7 @@ transform: scale(1.03)
         
     }
     .iteam {
-        width: 40vw;
+        width: 19vw;
     }   
     
 }
