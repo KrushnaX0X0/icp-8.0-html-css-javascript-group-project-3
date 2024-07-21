@@ -106,7 +106,7 @@
             <span class="quantity-text" id="quantity-text1st">1</span>
             <img src="..\img\plus.png" class="btn-quantity" onclick="handleQuantityChange1st('inc')" />
         </div>
-        <button type="button" class="btn">
+        <button type="button" class="btn" onclick="bye_now()">
             BUY NOW
         </button>
     </div>
@@ -125,7 +125,7 @@
             <span class="quantity-text" id="quantity-text2nd">1</span>
             <img src="..\img\plus.png" class="btn-quantity" onclick="handleQuantityChange2nd('inc')" />
         </div>
-        <button type="button" class="btn">
+        <button type="button" class="btn" onclick="bye_now()">
             BUY NOW
         </button>
     </div>
@@ -145,7 +145,7 @@
             <span class="quantity-text" id="quantity-text3rd">1</span>
             <img src="..\img\plus.png" class="btn-quantity" onclick="handleQuantityChange3rd('inc')" />
         </div>
-        <button type="button" class="btn">
+        <button type="button" class="btn" onclick="bye_now()">
             BUY NOW
         </button>
     </div>
@@ -166,7 +166,7 @@
             <span class="quantity-text" id="quantity-text4th">1</span>
             <img src="..\img\plus.png" class="btn-quantity" onclick="handleQuantityChange4th('inc')" />
         </div>
-        <button type="button" class="btn">
+        <button type="button" class="btn" onclick="bye_now()">
             BUY NOW
         </button>
     </div>
@@ -187,7 +187,7 @@
             <span class="quantity-text" id="quantity-text5th">1</span>
             <img src="..\img\plus.png" class="btn-quantity" onclick="handleQuantityChange5th('inc')" />
         </div>
-        <button type="button" class="btn">
+        <button type="button" class="btn" onclick="bye_now()">
             BUY NOW
         </button>
     </div>
@@ -206,7 +206,7 @@
             <span class="quantity-text" id="quantity-text6th">1</span>
             <img src="..\img\plus.png" class="btn-quantity" onclick="handleQuantityChange6th('inc')" />
         </div>
-        <button type="button" class="btn">
+        <button type="button" class="btn" onclick="bye_now()">
             BUY NOW
         </button>
     </div>
@@ -319,7 +319,9 @@
                 toggleButton.classList.remove("btn-dark")
             }
 
-   
+   function bye_now(){
+    alert("Order Sucessfully....");
+   }
 </script>
 </body>
 </html>

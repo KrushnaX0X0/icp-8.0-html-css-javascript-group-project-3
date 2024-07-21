@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
 }
-
+/*header*/
 .body{
     background-color: white;
 }
@@ -93,7 +93,7 @@
 }
 
 
-
+/*middle-section*/
 .blog-btn{
     display: flex;
     margin:30px auto;
@@ -269,7 +269,7 @@
     color:rgb(26, 140, 255);
     background-color: rgb(230, 242, 255);
 }
-
+/*footer*/
 .Footer{
     background: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-blend-mode: overlay;
@@ -327,8 +327,6 @@
     font-family: cursive;
     color: white;
 }
-
-
 
  /* for small device*/
  @media screen and (max-width:600px){
