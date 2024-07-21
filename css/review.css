@@ -142,10 +142,6 @@ p {
   background-color: #333333;
 }
 
-.submit-popup{
-  display: none;
-
-}
 
 /*Small Devices*/
 @media screen and (min-width: 300px) and (max-width: 599px) {
