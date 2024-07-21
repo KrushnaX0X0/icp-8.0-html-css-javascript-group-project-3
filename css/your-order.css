@@ -1,0 +1,24 @@
+.cart {
+    background-color: #fff;
+}
+
+.img-food {
+    height: 250px;
+}
+
+.quantity-container {
+    width: 100px;
+}
+
+.quantity {
+    font-size: 23px;
+}
+
+.quantity-img {
+    width: 28px;
+    cursor: pointer;
+}
+
+.amount {
+    font-size: 18px;
+}
