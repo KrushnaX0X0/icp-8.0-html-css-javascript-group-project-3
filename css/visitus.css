@@ -17,8 +17,7 @@ main {
     padding: 1rem;
 }
 
-.info,
-.map .contact-form {
+.info,.map .contact-form {
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 8px;
