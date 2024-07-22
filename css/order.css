@@ -6,11 +6,14 @@ body {
 .form-container {
     padding: 10px;
     display: inline-block;
-    border: 2px solid rgb(99, 137, 156);
+    border: 2px solid black(99, 137, 156);
     border-radius: 20px;
     box-shadow: 10px 10px 10px 10px gray;
 
-    background-color: #DED0B6;
+    background-color:   rgb(252,243,232);
+    margin-top: 20px;
+    height: 550px;
+    width: 450px;
     
     
 
@@ -39,12 +42,12 @@ body {
 }
 
 .img {
-    height: 650px;
-    width: 1000px;
+    height: 550px;
+    width: 650px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px 5px ;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 html {
@@ -57,6 +60,7 @@ html {
     width: 500px;
     border-radius: 10px;
     text-align: center;
+    margin-top: 20px;
     
 
 
@@ -81,9 +85,6 @@ html {
 
 }
 
-.form-container form p a:hover {
-    text-decoration: underline;
-}
 
 
 .title {
@@ -113,9 +114,9 @@ html {
 
 .parent-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
+    justify-content: space-around;
+  
+
 }
 
 
