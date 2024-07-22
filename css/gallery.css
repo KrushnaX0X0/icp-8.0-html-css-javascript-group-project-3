@@ -1,6 +1,8 @@
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background: rgb(252,243,232);
+background: linear-gradient(264deg, rgba(252,243,232,1) 53%, rgba(255,255,255,1) 100%);
     margin: 0;
     padding: 0;
 }
@@ -8,7 +10,9 @@ body {
 .chefs-section {
     text-align: center;
     padding: 50px 0;
+
 }
+
 
 .chefs-section h1 {
     font-size: 2.5em;
@@ -166,3 +170,198 @@ h2 {
     color: #f39c12;
     font-size: 1.2em;
 }
+.Footer{
+    background: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-blend-mode: overlay;
+    box-sizing: inherit;
+    background-color: #232533;
+    
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 350px;
+    width: 1500px; 
+    display: flex;  
+    margin-top: 350px;
+    position: fixed;
+ 
+}
+
+.FooterAdd{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    padding-left: 5px;
+    margin-right: 30px;
+    padding-top: 5px;
+    filter: drop-shadow(0 0 0.25rem yellow);
+}
+.OpenHours{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    margin-left: 20px;
+}
+
+.OpenTimes{
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+.Contactus{
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+}
+
+.Reachus{
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
+    .Footer{
+        width: 450px;
+        height: 400px;
+    }
+    .img-footer{
+        height: 40px;
+
+    }
+    .FooterAdd{
+        font-size: 15px;
+        }
+    .OpenHours{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 15px;
+    }
+    .Reachus{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 15px;
+        margin-left: 0px;
+        padding-left: 2px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .Footer{
+        width: 760px;
+        height: 350px;
+    }
+    .img-footer{
+        height: 40px;
+
+    }
+    .FooterAdd{
+        font-size: 15px;
+        }
+    .OpenHours{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 15px;
+    }
+    .Reachus{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 15px;
+        margin-left: 0px;
+        padding-left: 2px;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .Footer{
+        width: 990px;
+        height: 350px;
+    }
+    .img-footer{
+        height: 45px;
+
+    }
+    .FooterAdd{
+        font-size: 20px;
+        }
+    .OpenHours{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 20px;
+    }
+    .Reachus{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 2px;
+    }
+
+
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .Footer{
+        width: 1200px;
+        height: 350px;
+    }
+    .img-footer{
+        height: 50px;
+
+    }
+    .FooterAdd{
+        font-size: 25px;
+        }
+    .OpenHours{
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    .OpenTimes{
+        font-size: 25px;
+    }
+    .Reachus{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 210px;
+        padding-left: 0px;
+    }
+    .Contactus{
+        font-size: 25px;
+        margin-left: 0px;
+        padding-left: 30px;
+    }
+}
+
