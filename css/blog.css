@@ -32,7 +32,7 @@
     box-shadow: 0 0  10px 0 rgba(0,0,0,0.25);
     margin-left:100px;
     background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ebdddd;
     transition: 0.3s cubic-bezier(0.22, 0.78, 0.45, 1.02);
 }
 .blog-title:hover{
