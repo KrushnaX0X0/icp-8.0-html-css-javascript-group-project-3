@@ -7,6 +7,12 @@
     font-size:35px;
     color:rgb(59, 117, 171);
 }
+.blog-card{
+    display: flex;
+    justify-content:center;
+    margin-top:60px;
+    margin-left:-80px;
+}
 .blog-title{
     width:500px;
     border:1px solid rgb(242, 242, 242);
