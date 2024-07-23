@@ -96,7 +96,6 @@ body{
     border:1px solid rgb(242, 242, 242);
     border-radius: 30px;
     box-shadow: 0 0  10px 0 rgba(0,0,0,0.25);
-    margin-left:100px;
     background: linear-gradient(145deg, #ececec, #ffffff);
     box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ebdddd;
     transition: 0.3s cubic-bezier(0.22, 0.78, 0.45, 1.02);
@@ -125,28 +124,31 @@ body{
     background-color:rgb(255, 240, 230) ;
     padding:10px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size:15px;
     color:rgb(51, 102, 204);
     background-color: #ebf0fa;
+    margin:10px;
 }
 .blog-message{
     font-size:x-large;
     text-align: center;
     color:black;
+    margin:15px;
 }
 .food-info{
     font-size:18px;
     margin-top: -10px;
     text-align: center;
     padding:5px 10px;
+    margin:15px;
 }
 .more-info-btn{
     border:none;
     border:1px solid black;
-    border-radius:30px;
+    border-radius:20px;
     background-color:rgb(255, 240, 230) ;
     padding:20px 30px;
-    font-size: 20px;
+    font-size:15px;
     margin-left: 20px;
     color:rgb(51, 102, 204);
     background-color: #ebf0fa;
