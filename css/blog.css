@@ -27,7 +27,13 @@
     
 }
 .blog-date-btn{
+    border:none;
+    border:1px solid black;
+    border-radius:10px 0 10px 0;
+    background-color:rgb(255, 240, 230) ;
     padding:10px;
-    margin-left:40px;
-    font-size:20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:rgb(51, 102, 204);
+    background-color: #ebf0fa;
 }
