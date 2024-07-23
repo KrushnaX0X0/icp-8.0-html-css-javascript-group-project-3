@@ -5,3 +5,11 @@
 .blog-heading{
     text-align: center;
 }
+.blog-title{
+    border-radius:30px;
+    margin-left:70px;
+    margin:30px;
+    width:70%;
+    display: block;
+    margin:40px auto;
+}
