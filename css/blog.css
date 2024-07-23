@@ -83,6 +83,23 @@
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
     color:#0d0d25;
     }
+    .buy-product-link{
+    
+        color:rgb(51, 102, 204);
+        background-color: #ebf0fa;
+        
+    }
+    .buy-product{
+        display: block;
+        margin:60px auto;
+        text-align: center;
+        border:1px solid rgb(51, 102, 204);
+        border-radius: 10px 0px 10px 0px;
+        padding:20px 35px;
+        transition:  0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+        font-size:xx-large;
+    }
+        
     
 
 
