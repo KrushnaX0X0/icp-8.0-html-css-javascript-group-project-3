@@ -82,6 +82,10 @@ function handleQuantityChange5th(action){
     quantityElement.innerText = action == 'inc'? ++quantity : --quantity;
     }
 
+function bye_now(){
+        alert("Order Sucessfully....");
+     }
+
     
     
 
