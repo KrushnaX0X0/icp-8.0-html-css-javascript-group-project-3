@@ -128,12 +128,23 @@
         color:rgb(26, 140, 255);
         background-color: rgb(230, 242, 255);
     }
+    .quantity-btn-container{
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
     .btn-quantity{
         height:50px;
         margin-top: 10px;
         cursor: pointer;
     }
+    .quantity-text{
+        font-size: 40px;
+        margin-top: 10px;
+    }
     
+
     
     
     
