@@ -4,6 +4,8 @@
 }
 .blog-heading{
     text-align: center;
+    font-size:35px;
+    color:rgb(59, 117, 171);
 }
 .blog-title{
     border-radius:30px;
