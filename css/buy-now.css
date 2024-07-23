@@ -1,3 +1,8 @@
+body{
+    background-color: #f3f3f5;
+    
+}
+
 .payment-container {
     margin: 70px 50px 50px 0;
     width: 900px;
@@ -32,4 +37,69 @@
 .card-btn {
     width: 120px;
     font-size: 18px;
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .payment-container {
+        margin: 50px 30px 50px 30px;
+        width: 90%;
+    }
+
+    .price-container {
+        margin: 0 30px 50px 30px;
+        width: 90%;
+        height: 200px;
+        padding-bottom: 10px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 599px) {
+    .payment-container,
+    .price-container {
+        margin: 30px 10px;
+        width: 90%;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .payment-container {
+        margin: 50px 20px;
+        width: 80%;
+    }
+
+    .price-container {
+        margin: 50px 20px;
+        width: 60%;
+        height: auto;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+@media screen and (min-width: 993px) and (max-width: 1116px) {
+    .payment-container {
+        margin: 50px 20px;
+        width: 80%;
+    }
+
+    .price-container {
+        margin: 50px 20px;
+        width: 60%;
+        height:  600px auto;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    } 
+
 }

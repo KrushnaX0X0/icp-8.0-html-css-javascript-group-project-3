@@ -119,6 +119,32 @@ function fun4(opration) {
     else if (count == 1 && opration === "sub"){
         return
     }
+
+
+
+
+
+
+
+
+}
+
+
+
+const menuButton = document.getElementById("menu")
+const closeButton = document.getElementById("close")
+const body = document.getElementsByClassName("body")
+
+function menu(hi) {
+   let head = document.getElementById("head")
+   if (hi==1) {
+      head.classList.add("active")
+      head.classList.add("back-bg")
+      
+   }
+   else {
+      head.classList.remove("active")
+   }
 }
 
 
