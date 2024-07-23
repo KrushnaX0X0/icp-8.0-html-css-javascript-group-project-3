@@ -36,6 +36,10 @@
     
     
 }
+.blog-message:hover{
+    color:tomato;
+}
+
 .blog-date-btn{
     border:none;
     border:1px solid black;
