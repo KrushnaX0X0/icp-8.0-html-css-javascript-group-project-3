@@ -1,4 +1,68 @@
 /*header*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px */
+    overflow-x: hidden;
+
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    height: 11rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    background-color:#81b1ce;
+    border-color: #f2f2f2;
+    box-shadow: 0 10px 55px #d4d4d4;
+    
+}
+.logo{
+    height: 4rem;
+}
+.navbar-list{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+.link:link, a{
+    text-decoration: none;
+    display: inline-block; /* to remove underline and add padding */
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    color: #212129;
+}
+.link:link:hover, a:hover{
+    color: #00ace6;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00ace6;
+}
+.mobile-nav{
+    display: none;
+    background: transparent;
+     cursor: pointer;
+}
+.mob-i{
+    height: 4rem;
+    width: 4rem;
+}
+.x{
+    display: none;
+}
 
 /*main part*/
 .main_body{
