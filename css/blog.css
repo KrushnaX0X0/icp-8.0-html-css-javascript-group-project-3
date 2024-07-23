@@ -130,13 +130,13 @@ body{
     margin:10px;
 }
 .blog-message{
-    font-size:x-large;
+    font-size:large;
     text-align: center;
     color:black;
     margin:15px;
 }
 .food-info{
-    font-size:18px;
+    font-size:17px;
     margin-top: -10px;
     text-align: center;
     padding:5px 10px;
@@ -150,7 +150,6 @@ body{
     padding:20px 30px;
     font-size:15px;
     margin-left: 20px;
-    color:rgb(51, 102, 204);
     background-color: #ebf0fa;
     box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
     border: none;
@@ -161,7 +160,6 @@ body{
     box-shadow: 0 0  10px 5px rgba(0,0,0,0.25);
     border-color: #0d0d25;
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
-    color:#0d0d25;
     }
     .buy-product-link{
     
