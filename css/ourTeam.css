@@ -10,9 +10,16 @@ body {
 }
 .header {
     text-align:center;
+   padding-top: 10px;
+  
+ 
    
 } 
-    
+ #card-heading{
+    font-family:  cursive;
+
+
+ }   
    
 
 
@@ -73,6 +80,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    
 }
 
 .social-icons a {
@@ -81,6 +89,7 @@ body {
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s;
+
 }
 
 .social-icons a:hover {

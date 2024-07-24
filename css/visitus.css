@@ -1,12 +1,13 @@
 body {
-  
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:white;
+    background: rgb(252, 243, 232);
+    background: linear-gradient(264deg, rgba(252, 243, 232, 1) 53%, rgba(255, 255, 255, 1) 100%);
 }
-.title-contener
-{
+
+.title-contener {
     text-align: center;
     font-size: 2.5vw;
 }
@@ -16,11 +17,17 @@ main {
     padding: 1rem;
 }
 
-.info, .map .contact-form{
+.info,.map .contact-form {
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h2 {
@@ -43,70 +50,83 @@ label {
     margin-top: 0.5rem;
 }
 
-input, textarea {
+input,
+textarea {
     padding: 0.5rem;
     margin-top: 0.25rem;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-button {
+.btn-submit {
     margin-top: 1rem;
     padding: 0.5rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
+    box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+    color: white;
+    
+    background: rgb(243, 243, 245)
 }
 
-button:hover {
-    background-color: #555;
+.btn-sumit:hover {
+    border-color: #0d0d25;
+    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+   color:#0d0d25;
 }
-.contact-platform{
+
+.contact-platform {
     height: 200px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin:20px ;
+    margin: 20px;
     text-align: center;
 }
-.receiver{
+
+.receiver {
     width: 300px;
     font-size: 20px;
     transition: 0.5s;
 
 }
-.receiver:hover
-{
+
+.receiver:hover {
     transform: scale(1.05);
 }
-.gmail{
+
+.gmail {
     width: 300px;
     font-size: 20px;
     transition: 0.5s;
 }
-.gmail:hover
-{
+
+.gmail:hover {
     transform: scale(1.05);
 }
-.google-maps{
+
+.google-maps {
     width: 300px;
     font-size: 20px;
     transition: 0.5s;
 }
-.google-maps:hover
-{
+
+.google-maps:hover {
     transform: scale(1.05);
 }
-.font-contact-platform{
+
+.font-contact-platform {
     font-size: 20px;
-     
+
 }
 
 
-.contact-form{
+.contact-form {
     width: 500px;
     height: 400px;
     margin-bottom: 10px;
@@ -117,8 +137,8 @@ button:hover {
     box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
     transition: 0.5s;
 }
-.contact-form:hover
-{
+
+.contact-form:hover {
     transform: scale(1.05);
 }
 
@@ -128,29 +148,33 @@ button:hover {
     height: 60px;
 }
 
-.Opening{
-    flex: 1; 
-    min-width: 250px; 
+.Opening {
+    flex: 1;
+    min-width: 250px;
     padding: 10px;
 }
-.Follow{
+
+.Follow {
     flex: 1;
-     min-width: 250px;
-     padding: 10px;
+    min-width: 250px;
+    padding: 10px;
 }
-.copy{
-    text-align: center; 
-    padding: 10px 0; 
-    border-top: 1px solid #444; 
+
+.copy {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
     margin-top: 20px;
 }
-.About{
-    flex: 1; 
-    min-width: 250px; 
+
+.About {
+    flex: 1;
+    min-width: 250px;
     padding: 10px;
 }
-.Contact{
+
+.Contact {
     flex: 1;
-     min-width: 250px;
-     padding: 10px;
+    min-width: 250px;
+    padding: 10px;
 }
