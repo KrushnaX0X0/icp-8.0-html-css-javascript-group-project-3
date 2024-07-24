@@ -850,4 +850,140 @@ body{
 
 
 
+
+.footer-continer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(187, 186, 184);
+}
+.footer-info{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+
+}
+.footer-logo {
+    height: 20vh;
+    width: 20vw;
+    
+    object-fit: contain;
+}
+
+.footer-info p{
+    color:black;
+    margin-top: 40px;
+    font-size: 1vw;
+    margin-bottom: 5vh;
+}
+.footer-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1vw;
+    object-fit: cover;
+}
+
+.footer-icon:hover{
+    box-shadow: 5px 5px 20px rgb(158, 157, 157);
+}
+.footer-time{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-time h1{
+    font-size: 2.5vw;
+    margin-top: 10vh;
+    color:black;
+    margin-bottom: 10vh;
+}
+
+.footer-time p{
+    color: black;
+    font-size: 1.5vw;
+    display: flex;
+    
+}
+.pag{
+    margin-top: 2vh;
+}
+.footer-time p svg{
+
+    height: 3vh;
+}
+.footer-link{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+
+}
+.footer-pages{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link a{
+    margin-top: 2vh;
+    text-decoration: none;
+}
+.footer-link a{
+    text-decoration: none;
+}
+.footer-link h1{
+    margin-top: 10vh;
+    font-size: 2.5vw;
+}
+
+
+.footer-compani{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+
+}
+.footer-compani h1{
+    font-size: 2.5vw;
+    margin-top: 10vh;
+    color:black;;
+}
+.company-taxt{
+    display: flex;
+    flex-direction: column;
+}
+.company-taxt a{
+    margin-top: 3vh;
+
+}
+
+
+
+
  
