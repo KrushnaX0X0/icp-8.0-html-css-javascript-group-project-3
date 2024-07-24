@@ -7,7 +7,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/review.css" />
   </head>
-  <body>
+
+   
+  <header class="header" id="head">
+    <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+        class="logo">
+        <nav class="nav-bar">
+            <ul class="navbar-list">
+                <li><a class="links"  href="../index.html">HOME</a></li>
+                <li><a class="links"  href="../pages/about.html">ABOUT</a></li>
+                <li><a class="links"  href="../pages/menu.html">MENU</a></li>
+                <li><a class="links"  href="../pages/gallery.html">GALLARY</a></li>
+                <li><a class="links"  href="../pages/visitus.html">VISITOR</a></li>
+                <li><a class="links"  href="../pages/blog.html">BLOG</a></li>
+                <li><a class="links"  href="../pages/order.html">ORDER</a></li>
+                <li><a class="links"  href=" ./review.html">REVIEW</a></li>
+                <li><a class="links"  href="../pages/ourTeam.html">OURTEAM</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <ion-icon name="menu-outline"  class="mob-i M" id="menu" onclick="menu(1)"></ion-icon>
+            <ion-icon name="close-outline" class="mob-i x" id="close" onclick="menu(2)"></ion-icon>
+        </div>
+</header>
+
+
     <h3>WHAT THEY SAY</h3>
     <h1>
       What Our Customers <br />
@@ -106,5 +130,9 @@ function closepopup(){
     popup.classList.remove("open-popup")
 }
     </script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="./../javascript/navbar&footer.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
