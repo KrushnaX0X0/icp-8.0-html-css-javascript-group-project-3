@@ -51,6 +51,5 @@ The Sassy Spoon is a boutique hotel in Pune that offers a unique and stylish exp
 
 **Contribution:**
 
-* (Replace this section with guidelines on how others can contribute to the website's  
-  development, if applicable.)  
+  ![Contributers](./img/read-me/ss.png) 
 
