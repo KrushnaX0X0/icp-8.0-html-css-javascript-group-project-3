@@ -19,7 +19,19 @@ h1 {
   text-align: center;
   font-size: 3.5vw;
   margin-bottom: 20px;
-  border-bottom: 1px groove #ffa64d;
+  border-bottom: 5px groove #ffa64d;
+}
+
+.img-text{
+  display: inline-block;
+}
+
+.text-h1{
+ font-size: 50px;
+ margin-left: 600px;
+ margin-top: -290px;
+ color: #737373;
+ font-family: cursive;
 }
 
 .img-1 {
@@ -186,24 +198,6 @@ p {
   cursor: pointer;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
-
-.right {
-  height: 50vh;
-  width: 40vw;
-  border-radius: 50%;
-  margin-top: 10vh;
-  margin-left: 10px;
-  overflow: hidden;
-  box-shadow: 8px 8px 30px rgb(27, 26, 26);
-  transition: 1s;
-
-}
-.right img {
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-}
-
 .img-h1{
   color: #808080;
 }
@@ -224,6 +218,8 @@ p {
     margin-top: 0px;
     height: 200px;
   }
+
+  
 
   .review-cards {
     height: 150px;
@@ -254,7 +250,7 @@ p {
     margin-left: 0px;
     padding: 10px;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .submit-btn {
@@ -267,13 +263,6 @@ p {
     margin-top: 30px;
     font-size: 12px;
   }
-
-  
-.right {
-  height: 20vh;
-  width: 70vw;
-  margin-top: 20px;
-}
 }
 
 /*Normal Devices*/
@@ -291,12 +280,17 @@ p {
     position: sticky;
     margin-top: 0px;
     height: 300px;
+    margin-left: 150px;
   }
 
   .review-cards {
     height: 300px;
     width: 400px;
   }
+
+  .text-h1{
+    display: none;
+   }
 
   .review-images {
     height: 100px;
@@ -336,12 +330,6 @@ p {
     margin-top: 30px;
     font-size: 18px;
   }
-
-  .right {
-    height: 30vh;
-    width: 70vw;
-    margin-top: 20px;
-  }
 }
 
 /*Tablet Devices*/
@@ -360,6 +348,14 @@ p {
     margin-top:0px;
     margin-left: -90px;
     height: 450px;
+  }
+
+  
+  .img-1 {
+    position: sticky;
+    margin-top: 0px;
+    height: 400px;
+    margin-left: 150px;
   }
 
   .review-cards {
@@ -389,6 +385,10 @@ p {
     font-size: 30px;
   }
 
+  .text-h1{
+    display:none;
+  }
+
   .review-box {
     height: 50px;
     width: 400px;
@@ -408,12 +408,6 @@ p {
     margin-left: 10px;
     margin-top: 30px;
     font-size: 25px;
-  }
-
-  .right {
-    height: 40vh;
-    width: 60vw;
-    margin-top: 20px;
   }
 }
 
@@ -487,12 +481,6 @@ p {
     font-size: 25px;
   }
 
-  .right {
-    height: 50vh;
-    width: 70vw;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
@@ -536,26 +524,21 @@ p {
     margin-left: -150px;
     padding: 10px;
     padding-top: 15px;
-    margin-top: 20px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 20px;
   }
 
   .submit-btn {
-    height: 50px;
-    width: 150px;
-    padding: 10px;
+    height: 40px;
+    width: 170px;
+    padding: 5px;
     padding-top: 10px;
     cursor: pointer;
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 25px;
   }
 
-  .right {
-    height: 50vh;
-    width: 70vw;
-    margin-top: 20px;
-  }
 }
 
 /*Navbar CSS*/
