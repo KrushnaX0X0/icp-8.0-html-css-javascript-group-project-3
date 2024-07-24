@@ -54,11 +54,3 @@ The Sassy Spoon is a boutique hotel in Pune that offers a unique and stylish exp
 * (Replace this section with guidelines on how others can contribute to the website's  
   development, if applicable.)  
 
-**Note:**
-
-* This is a sample README file, and you may need to modify it to fit the specific needs of  
-  your website.  
-* Consider replacing the bracketed information with details specific to The Sassy Spoon.  
-* Adding high-quality visuals is crucial for creating an engaging website.  
-* Ensure the website is mobile-friendly to cater to users on various devices.  
-
