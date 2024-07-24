@@ -210,6 +210,9 @@ html{
     overflow-x: hidden;
 
 }
+
+
+
 body{
     overflow-x: hidden;
 }
@@ -219,14 +222,15 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 4rem;
-    background-color:#81b1ce;
+    background-color:#b4e1ff    ;
     border-color: #f2f2f2;
     box-shadow: 0 10px 55px #d4d4d4;
     
 }
 .logo{
-    height: 10rem;
+    height: 4rem;
 }
+
 .navbar-list{
     display: flex;
     gap: 4rem;
@@ -262,6 +266,8 @@ body{
 .x{
     display: none;
 }
+
+
 @media screen and (max-width: 1105px){
     .mobile-nav{
         display: block;
@@ -274,6 +280,8 @@ body{
     .header{
         position: relative;
     }
+
+
     .nav-bar{
         position: absolute;
         /* display: none; */
@@ -444,6 +452,7 @@ body{
 }
 
 
+
 @media screen and (max-width:480px) {
     .footer-continer{
         height: 190vh;
@@ -497,6 +506,7 @@ body{
 
     
 }
+
 
 
 @media screen and (min-width:482px) and (max-width:600px){
