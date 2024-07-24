@@ -100,12 +100,15 @@ function output(nums) {
     
 const menuButton = document.getElementById("menu")
 const closeButton = document.getElementById("close")
+const imgsm = document.getElementById("img-sm")
 function menu(hi) {
    let head = document.getElementById("head")
    if (hi==1) {
       head.classList.add("active")
+      imgsm.classList.add("remove")
    }
    else {
       head.classList.remove("active")
+      imgsm.classList.remove("remove")
    }
 }
