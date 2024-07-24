@@ -847,7 +847,7 @@ body{
 }
 
 
-
+/*      footer css       */
 
 
 
@@ -981,6 +981,61 @@ body{
 .company-taxt a{
     margin-top: 3vh;
 
+}
+
+
+@media screen and (max-width:480px) {
+    .footer-continer{
+        height: 190vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-info{
+        height: 50vh;
+        width: 100%;
+    }
+    .footer-logo{
+        display: block;
+        margin: 0px auto;
+        height: 22vh;
+        width: 69vw
+    }
+
+    .footer-info p{
+        font-size: 4vw;
+    }
+    .footer-time{
+        height: 50vh;
+        width: 100%;
+    }
+    .footer-time h1{
+        font-size: 7.5vw;
+        color: #8f2839;
+    }
+    .footer-time p{
+        font-size: 5.5vw;
+    }
+    .footer-link{
+        width: 100%;
+        height: 61vh;
+    }
+    .footer-link h1{
+        font-size: 9.5vw;
+        color: #8f2839;
+
+    }
+    .footer-compani{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .footer-compani h1{
+        font-size: 7.5vw;
+        color: #8f2839;
+    }
+
+    
 }
 
 
