@@ -1,7 +1,7 @@
 # icp-8.0-html-css-javascript-group-project-3
 ## The Sassy Spoon - Pune Website (README)
 **Project Name:** The Sassy Spoon - Pune Website
-
+<img src="./img/read-me/Black and Beig2.png">
 
 **About the Hotel:**
 
@@ -42,14 +42,14 @@ The Sassy Spoon is a boutique hotel in Pune that offers a unique and stylish exp
 
 **Technical Specifications:**
 
-* (Replace this section with details about the technologies used to build the website,  
-  e.g., programming languages, frameworks, content management system.)  
+  *HTML,CSS,JS 
 
 **Deployment:**
+    <a href="https://ind-restro.netlify.app/">
 
-* (Replace this section with instructions on how to deploy the website to a live server.)  
 
 **Contribution:**
-
-  ![Contributers](./img/read-me/ss.png) 
+<a href="https://github.com/KrushnaX0X0/icp-8.0-html-css-javascript-group-project-3.git">
+  <img src="./img/read-me/ss.png" />
+</a>
 
