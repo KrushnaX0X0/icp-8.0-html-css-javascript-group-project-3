@@ -1,85 +1,67 @@
 /*header*/
-.body{
-    background-color: white;
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+*{
     margin: 0px;
-    height: 120px;
-    width: 1500px;
-    background-color:rgb(255 255 255 /90%);
-    font-family: 'Poppins', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px */
+    overflow-x: hidden;
+
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    height: 11rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    background-color:#81b1ce;
     border-color: #f2f2f2;
     box-shadow: 0 10px 55px #d4d4d4;
-    border-radius: 15px;
-
-}
-
-
-.navbar-socialmedia{
-    height: 35px;
-    margin-left: 10px;
     
 }
-.Home{
-    color: black; 
-    text-decoration: none; 
-    margin-left: 35px; 
-    padding: 1px;
-    cursor: pointer;
-
-}
-.Home:hover{
-    color: blue;
-}
-
 .logo{
-    margin-top: 50px;
-    margin-left: 0px;
+    height: 4rem;
 }
-.app-container{
-    text-align: center;
-    color: white;
-}
-
-
-.button-container{
-    justify-content: center;
+.navbar-list{
     display: flex;
+    gap: 4rem;
+    list-style: none;
 }
-.btn-toggle{
-    margin: 10px 30px;
-    width: 100px;
-    cursor: pointer;
-    padding: 7px 0px;
+.link:link, a{
+    text-decoration: none;
+    display: inline-block; /* to remove underline and add padding */
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    color: #212129;
 }
-.theme-select-icon{
- height: 30px;
- cursor: pointer;
-
+.link:link:hover, a:hover{
+    color: #00ace6;
 }
-.theme-select-container{
-    top: 10px;
-    height: 10px;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00ace6;
 }
-.bg-dark{
-    background-color: black;
+.mobile-nav{
+    display: none;
+    background: transparent;
+     cursor: pointer;
 }
-.bg-light{
-    color: black;
-    background-color: white;
+.mob-i{
+    height: 4rem;
+    width: 4rem;
 }
-.btn-dark{
-    color: white;
-    background-color: black;
-}
-.btn-light{
-    color: black;
-    background-color: yellow;
+.x{
+    display: none;
 }
 
 /*main part*/
@@ -102,7 +84,7 @@
 .blog-heading{
     text-align: center;
     font-size:35px;
-    color:rgb(59, 117, 171);
+
 }
 .blog-card{
     display: flex;
@@ -114,13 +96,12 @@
     border:1px solid rgb(242, 242, 242);
     border-radius: 30px;
     box-shadow: 0 0  10px 0 rgba(0,0,0,0.25);
-    margin-left:100px;
     background: linear-gradient(145deg, #ececec, #ffffff);
     box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ebdddd;
     transition: 0.3s cubic-bezier(0.22, 0.78, 0.45, 1.02);
 }
 .blog-title:hover{
-    transform: scale(1.03);
+    transform: scale(1.02);
     box-shadow:20px 20px 45px #aaa6a6;
 }
 .blog-img{
@@ -143,30 +124,32 @@
     background-color:rgb(255, 240, 230) ;
     padding:10px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size:15px;
     color:rgb(51, 102, 204);
     background-color: #ebf0fa;
+    margin:10px;
 }
 .blog-message{
-    font-size:x-large;
+    font-size:large;
     text-align: center;
     color:black;
+    margin:15px;
 }
 .food-info{
-    font-size:18px;
+    font-size:17px;
     margin-top: -10px;
     text-align: center;
     padding:5px 10px;
+    margin:15px;
 }
 .more-info-btn{
     border:none;
     border:1px solid black;
-    border-radius:30px;
+    border-radius:20px;
     background-color:rgb(255, 240, 230) ;
     padding:20px 30px;
-    font-size: 20px;
+    font-size:15px;
     margin-left: 20px;
-    color:rgb(51, 102, 204);
     background-color: #ebf0fa;
     box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
     border: none;
@@ -177,7 +160,6 @@
     box-shadow: 0 0  10px 5px rgba(0,0,0,0.25);
     border-color: #0d0d25;
     box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
-    color:#0d0d25;
     }
     .buy-product-link{
     
@@ -260,13 +242,387 @@
         box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
         color:#0d0d25;
     }
+     /* for small device*/
+ @media screen and (max-width:600px){
+    .blog-btn{
+        border-radius: 10px;
+        font-size:large;
+    }
+    .blog-heading{
+        font-size:25px;
+       
+    }
     
-    
-
-    
-    
-    
+    .blog-card{
+        margin-top:20px;
+        margin-left:-30px;
+        display: flex;
+        margin:50px;
+        flex-direction: column;
         
+    }
+    .blog-title{
+        width:350px;
+        border-radius:10px;
+        margin-left:100px;
+        margin:30px;
+    }
+    .blog-img{
+        width:300px;
+       margin:10px auto;
+        border-radius:10px;
+        
+    }
+    .blog-date-btn{
+        padding:10px;
+        margin-left: 20px;
+        font-size:15px;
+    }
+    .blog-message{
+        font-size:large;
     
+    }
+    .food-info{
+        font-size:15px;
+        margin-top:-10px;
+        padding:5px 10px;
+    }
+    .more-info-btn{
+        border-radius:10px;
+        padding:10px;
+        font-size: 18px;
+        margin-left: 20px;
+    }   
+
+    .btn-quantity{
+        height:30px;
+        margin-top: 10px;
+    }
+    .quantity-text{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .btn{
+        padding:5px 10px;
+        border-radius:10px;
+    }
+    .buy-product-link{
+        font-size:15px;
+
+    }
+    .buy-product{
+        border-radius: 5px 0px 5px 0px;
+        padding:20px 30px;
+        margin-left:170px;
+      
+        
+    }
+    .rate-butn{
+        padding:10px 20px;
+        border-radius:10px;
+        font-size:15px;
+    }
 
 
+
+ }
+    
+   /* for normal device*/
+   @media screen and (min-width:601px) and (max-width:768px){
+
+    .blog-btn{
+        margin:20px auto;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: x-large;
+        margin-left:300px;
+      
+    }
+    .blog-heading{
+        font-size:25px;
+        margin-left: -30px;
+       
+    }
+    
+    .blog-card{
+        margin-top:20px;
+        margin-left:-30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin:50px;
+     }
+    .blog-title{
+        width:350px;
+        border-radius:20px;
+        margin-left:100px;
+        margin:30px;
+    }
+    .blog-img{
+        width:300px;
+       margin:10px auto;
+        border-radius:20px;
+        
+    }
+    .blog-date-btn{
+        padding:10px;
+        margin-left: 20px;
+        font-size:15px;
+    }
+    .blog-message{
+        font-size:large;
+        margin:10px;
+    
+    }
+    .food-info{
+        font-size:18px;
+        margin-top: -10px;
+        padding:5px 10px;
+        margin:10px;
+    }
+    .more-info-btn{
+        border-radius:10px;
+        padding:10px;
+        font-size: 15px;
+        margin-left: 20px;
+    }   
+    .btn-quantity{
+        height:40px;
+        margin-top: 10px;
+    }
+    .quantity-text{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .btn{
+        padding:10px 20px;
+        border-radius:10px;
+    }
+    .buy-product-link{
+        font-size:20px;
+
+    }
+    .buy-product{
+        border-radius:20px;
+        padding:20px 30px;
+        margin-left:300px;
+      
+        
+    }
+
+
+   }
+      /* for tablet device*/
+      @media screen and (min-width:769px) and (max-width:992px){
+        .blog-btn{
+            margin:30px auto;
+            border-radius:25px;
+            padding: 5px 10px;
+            font-size: x-large;
+            display: flex;
+            margin:30px auto;
+            margin-left:360px;
+      
+        }
+        .blog-heading{
+            font-size:50px;
+            margin-left: -30px;
+           
+        }
+        
+        .blog-card{
+            margin-top:20px;
+            margin-left:-30px;
+            display: flex;
+            margin:50px;
+            flex-wrap: wrap;
+           
+            
+        }
+        .blog-title{
+            border-radius:20px;
+            margin-left:100px;
+            margin:30px;
+            width:250;
+            display: block;
+            margin:40px auto;
+        }
+        .blog-img{
+            width:230px;
+            margin:30px auto;
+            border-radius:20px;
+            
+        }
+        .blog-date-btn{
+            padding:10px;
+            margin-left:40px;
+            font-size:15px;
+        }
+        .blog-message{
+            font-size:20px;
+        
+        }
+        .food-info{
+            font-size:15px;
+            margin-top: -10px;
+            padding:5px 10px;
+        }
+        .more-info-btn{
+            border-radius:15px;
+            padding:10px;
+            font-size:15px;
+            margin-left:40px;
+        }   
+        .btn-quantity{
+            height:40px;
+            margin-top: 20px;
+        }
+        .quantity-text{
+            font-size: 40px;
+            margin-top: 20px;
+        }
+        .btn{
+            padding:10px 30px;
+            border-radius:20px;
+        }
+        .buy-product-link{
+            font-size:25px;
+    
+        }
+        .buy-product{
+            border-radius:20px;
+            padding:20px 30px;
+            margin-left:360px;
+        }
+      }
+
+       /* for large device*/
+       @media screen and (min-width:993px) and (max-width:1200px){
+       .blog-btn{
+            margin:30px auto;
+            border-radius:25px;
+            padding: 5px 10px;
+            font-size: x-large;
+            display: flex;
+            margin:30px auto;
+            margin-left:360px;
+      
+        }
+        .blog-heading{
+            font-size:50px;
+            margin-left: -30px;
+           
+        }
+        
+        .blog-card{
+            margin-top:20px;
+            margin-left:-30px;
+            display: flex;
+            margin:50px;
+            flex-wrap: wrap;
+           
+            
+        }
+        .blog-title{
+            border-radius:20px;
+            margin-left:100px;
+            margin:30px;
+            width:300;
+            display: block;
+            margin:40px auto;
+        }
+        .blog-img{
+            width:270px;
+            margin:30px auto;
+            border-radius:20px;
+            
+        }
+        .blog-date-btn{
+            padding:15px;
+            margin-left:40px;
+            font-size:15px;
+        }
+        .blog-message{
+            font-size:20px;
+        
+        }
+        .food-info{
+            font-size:15px;
+            margin-top: -10px;
+            padding:5px 10px;
+        }
+        .more-info-btn{
+            border-radius:15px;
+            padding:10px;
+            font-size:15px;
+            margin-left:40px;
+        }   
+        .btn-quantity{
+            height:50px;
+            margin-top: 20px;
+        }
+        .quantity-text{
+            font-size: 50px;
+            margin-top: 20px;
+        }
+        .btn{
+            padding:10px 30px;
+            border-radius:20px;
+        }
+        .buy-product-link{
+            font-size:25px;
+    
+        }
+        .buy-product{
+            border-radius:20px;
+            padding:20px 30px;
+            margin-left:360px;
+        }
+        .mobile-nav{
+            display: block;
+            z-index: 900;
+        }
+        .logo{
+            width: 10%;
+            
+        }
+        .header{
+            position: relative;
+        }
+        .nav-bar{
+            position: absolute;
+            /* display: none; */
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            background:#b4e1ff ;
+            transform: translateX(100%);
+            transition: all 0.5s linear;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .navbar-list{
+            flex-direction: column;
+            align-items: center;
+        }
+        .active .nav-bar{
+            transform: translateX(0);
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        .active .x{
+            display: block;
+        }
+        .active .M{
+            display: none;
+        }
+}
+
+        
+        
