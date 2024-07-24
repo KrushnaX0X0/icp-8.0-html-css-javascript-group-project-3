@@ -4,22 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Page</title>
-    <link rel="stylesheet" href="C:\Users\kanga\OneDrive\Desktop\icp-8.0-html-css-javascript-group-project-3\css\blog.css">
+    <link rel="stylesheet" href="./../css/blog.css">
+    <link rel="stylesheet" href="./../css/navbar.css">
+    <script src="./../javascript/blog.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body class="main_body">
-      <button type="button" class="blog-btn">
+<!--Header-->
+    <header class="header" id="head">
+        <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+            class="logo">
+            <nav class="nav-bar">
+                <ul class="navbar-list">
+                    <li><a class="links"  href="./../index.html">HOME</a></li>
+                    <li><a class="links"  href="./../pages/about.html">ABOUT</a></li>
+                    <li><a class="links"  href="./../pages/menu.html">MENU</a></li>
+                    <li><a class="links"  href="./../pages/gallery.html">GALLARY</a></li>
+                    <li><a class="links"  href="./../pages/visitus.html">VISIT US</a></li>
+                    <li><a class="links"  href="./../pages/blog.html">BLOG</a></li>
+                    <li><a class="links"  href="./../pages/order.html">ORDER</a></li>
+                    <li><a class="links"  href="./../pages/review.html">REVIEW</a></li>
+                    <li><a class="links"  href="./../pages/ourTeam.html">OURTEAM</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav">
+                <ion-icon name="menu-outline"  class="mob-i M" id="menu" onclick="menu(1)"></ion-icon>
+                <ion-icon name="close-outline" class="mob-i x" id="close" onclick="menu(2)"></ion-icon>
+            </div>
+    </header>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!--Main-part-->
+   <button type="button" class="blog-btn">
         OUR BLOG
      </button>
     <h1 class="blog-heading">Latest Publications</h1>
     <div class="blog-card">
         <div class="blog-title">
-            <img src="./../img/blog-1.jpg" class="blog-img"/>
+            <img src="./../img/blog-1.jpg" class="blog-img"  height="220px"/>
             <button class="blog-date-btn" type="button" >September.15.2024</button>
             <h3 class="blog-message">
                 Energy Drink Which You Can Make At Home.
             </h3>
             <p class="food-info">
-                A good energy drink provides caffeine alongside ergogenic and nootropic compounds.Caffeine has the biggest role when it comes to boosting energy .
+                A good energy drink provides caffeine alongside ergogenic and nootropic compounds.Caffeine has the biggest role when..
             </p>
             <a href="about.html">
             <button class="more-info-btn" type="button">
@@ -29,7 +61,7 @@
         </div>
 
         <div class="blog-title">
-            <img src="./../img/blog-2.jpg" class="blog-img"/>
+            <img src="./../img/blog-2.jpg" class="blog-img"  height="220px"/>
             <button class="blog-date-btn" type="button" >
                 October.15.2024
             </button>
@@ -38,7 +70,7 @@
             </h3>
             <p class="food-info">
                 Effortless Elegance: These one-pan wonders come together in under 30 minutes.
-                Nutrient Powerhouse: Load up on vitamins, minerals and fiber with every bite.
+                Nutrient Powerhouse: Load up on vitamin..
             </p>
             <a href="about.html">
             <button class="more-info-btn" type="button">
@@ -48,7 +80,7 @@
      </div>
 
      <div class="blog-title">
-           <img src="./../img/blog-3.jpg" class="blog-img"/>
+           <img src="./../img/blog-3.jpg" class="blog-img" height="220px"/>
            <button type="button" class="blog-date-btn">
                November.15.2024
           </button>
@@ -56,7 +88,7 @@
             Chicken Burger With Double Nuggets
           </h3>
           <p class="food-info">
-            Helps build muscles.Keeps your bones healthy.Relieves stress.Reduces PMS symptoms.Helps boost testosterone levels.Boosts immunity.Promotes heart health
+            Helps build muscles.Keeps your bones healthy.Relieves stress.Reduces PMS symptoms.Helps boost testosterone levels.Boosts immunity.
           </p>
           <a href="about.html">
           <button class="more-info-btn" type="button">
@@ -74,7 +106,7 @@
 
     <div class="blog-card">
        <div class="blog-title">
-         <img src="./../img/blog-4.jpg" class="blog-img"/>
+         <img src="./../img/blog-4.jpg" class="blog-img"  height="200px"/>
          <button type="button" class="blog-date-btn">
             January.15.2024
          </button>
@@ -92,7 +124,7 @@
        </div>
 
     <div class="blog-title">
-       <img src="./../img/blog-5.jpg" class="blog-img" height="350px"/>
+       <img src="./../img/blog-5.jpg" class="blog-img" height="200px"/>
        <button type="button" class="blog-date-btn">
           June.15.2024
        </button>
@@ -110,7 +142,7 @@
     </a>
     </div>
     <div class="blog-title">
-      <img src="./../img/blog-6.jpg"  class="blog-img" height="350px"/>
+      <img src="./../img/blog-6.jpg"  class="blog-img" height="220px"/>
       <button type="button" class="blog-date-btn">
         July.15.2024
       </button>
@@ -128,6 +160,9 @@
     </a>
     </div>
     </div>
+    <script src="./../javascript/blog.js"></script>
+
+    <!--Footer-->
 
 </body>
 </html>
