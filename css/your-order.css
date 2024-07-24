@@ -7,13 +7,21 @@ body{
 
     
     background: linear-gradient(145deg, #ececec, #ffffff);
+    margin: 30px;
+    padding: 50px;
+    
+    border-color: #212129;
 }
 
 .img-food {
     height: 250px;
-    
+    border-radius: 10px;
     box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
 
+}
+
+.content {
+    margin: 35px 15px;
 }
 
 .quantity-container {
@@ -22,16 +30,30 @@ body{
 
 .quantity {
     font-size: 23px;
+    display: block;
+    margin: 0 10px;
+    font-weight: bold;
 }
 
 .quantity-img {
     width: 28px;
     cursor: pointer;
+    display: block;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 .amount {
     font-size: 18px;
+    padding-top: 15px;
 }
+
+.amt {
+    font-weight: bold;
+}
+
+
 body{
     overflow-x: hidden;
 }
@@ -85,6 +107,85 @@ body{
 .x{
     display: none;
 }
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.child-container{
+    margin: 40px;
+}
+.text{
+    font-size: 20px;
+    font-weight:bold;
+}
+.txt{
+    font-size: 25px;
+}
+.text-design{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.order-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-remove {
+    display: block;
+    margin: 5px auto;
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.border-container {
+    border: 1px solid gray;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}  
+
+.price-amt {
+    padding: 0 30px;
+}
+
+.price-items {
+    margin: 15px 0 5px 25px;
+}
+
+.total-gross {
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-buy-now {
+    display: block;
+    margin: 0 auto;
+    background-color: #198754;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
 
 @media screen and (max-width: 500px) {
     .img-food {
@@ -113,9 +214,8 @@ body{
         width: 600px; 
     }
 
-    .btn-danger {
-        margin-left: 20px; 
-        margin-top: 20px; 
+    .btn-remove {
+        margin-left: 70px; 
         
     }
     .quantity {
