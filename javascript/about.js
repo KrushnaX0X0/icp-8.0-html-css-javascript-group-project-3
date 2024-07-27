@@ -98,3 +98,41 @@ function output(nums) {
     }
 }
     
+const menuButton = document.getElementById("menu")
+const closeButton = document.getElementById("close")
+const imgsm = document.getElementById("img-sm")
+function menu(hi) {
+   let head = document.getElementById("head")
+   if (hi==1) {
+      head.classList.add("active")
+      imgsm.classList.add("remove")
+   }
+   else {
+      head.classList.remove("active")
+      imgsm.classList.remove("remove")
+   }
+}
+const imgarry = ["./../img/about-img/1.png"
+    ,"./../img/about-img/2.png","./../img/about-img/3.png",
+    "./../img/about-img/4.png","./../img/about-img/5.png"]
+    let imgindex = 0;
+function next(){
+
+   if (imgindex == imgarry.length - 1) {
+      imgindex = 0;
+   } else {
+      imgindex++;
+    
+   } 
+   mainImg.src = imgarry[imgindex];
+}
+ function prev(){
+   if (imgindex == 0) {
+      imgindex = imgarry.length - 1;
+   } else {
+      imgindex--;
+
+   }
+   mainImg.src = imgarry[imgindex];
+}
+// setInterval(next, 3000);
