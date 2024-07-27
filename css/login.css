@@ -1,3 +1,8 @@
+.bg-img{
+    background-image: url(https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg);
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,9 +22,11 @@ body {
     background-color: white;
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
+    height: 500px;
+    padding: 80px;
 }
 
 .login-form h2 {
@@ -57,5 +64,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
 
 
