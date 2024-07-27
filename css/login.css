@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(155, 61, 244);
+    background-image: url(https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg);
 }
 .login-container{
     height: 550px;
-    width: 400px;
+    width: 500px;
     background-color: white;
     display: flex;
     margin: auto;
