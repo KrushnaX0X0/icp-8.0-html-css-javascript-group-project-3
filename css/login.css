@@ -12,3 +12,9 @@ body{
     border-radius: 10px;
     padding: 40px 30px;
 }
+.login-head{
+    margin: auto;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
