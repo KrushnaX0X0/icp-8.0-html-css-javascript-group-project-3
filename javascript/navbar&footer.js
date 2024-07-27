@@ -18,3 +18,4 @@ function enableLight(){
    toggleButton.classList.add("btn-light")
    toggleButton.classList.remove("btn-dark")
 }
+

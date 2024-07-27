@@ -1,0 +1,179 @@
+.main_body{
+    padding:0;
+    margin:0;
+}
+.blog-btn{
+    display: flex;
+    margin:30px auto;
+    border: none;
+    border:1px solid black;
+    border:1px solid rgb(242, 242, 242);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: x-large;
+    color:rgb(255, 71, 26);
+    background-color:rgb(242, 242, 242);
+}
+.blog-heading{
+    text-align: center;
+    font-size:35px;
+    color:rgb(59, 117, 171);
+}
+.blog-card{
+    display: flex;
+    justify-content:center;
+    margin-top:60px;
+    margin-left:-80px;
+}
+.blog-title{
+    width:500px;
+    border:1px solid rgb(242, 242, 242);
+    border-radius: 30px;
+    box-shadow: 0 0  10px 0 rgba(0,0,0,0.25);
+    margin-left:100px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ebdddd;
+    transition: 0.3s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+.blog-title:hover{
+    transform: scale(1.03);
+    box-shadow:20px 20px 45px #aaa6a6;
+}
+.blog-img{
+    width:400px;
+    display:flex;
+    margin:20px auto;
+    border:1px solid rgb(242, 242, 242);
+    border-radius: 30px;
+    
+    
+}
+.blog-message:hover{
+    color:tomato;
+}
+
+.blog-date-btn{
+    border:none;
+    border:1px solid black;
+    border-radius:10px 0 10px 0;
+    background-color:rgb(255, 240, 230) ;
+    padding:10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:rgb(51, 102, 204);
+    background-color: #ebf0fa;
+}
+.blog-message{
+    font-size:xx-large;
+    text-align: center;
+    color:black;
+}
+.food-info{
+    font-size:x-large;
+    margin-top: -10px;
+    text-align: center;
+    padding:5px 10px;
+}
+.more-info-btn{
+    border:none;
+    border:1px solid black;
+    border-radius:30px;
+    background-color:rgb(255, 240, 230) ;
+    padding:20px 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    color:rgb(51, 102, 204);
+    background-color: #ebf0fa;
+    box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
+    border: none;
+    cursor: pointer;
+    background: rgb(243, 243, 245);
+}   
+.more-info-btn:hover{
+    box-shadow: 0 0  10px 5px rgba(0,0,0,0.25);
+    border-color: #0d0d25;
+    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+    color:#0d0d25;
+    }
+    .buy-product-link{
+    
+        color:rgb(51, 102, 204);
+        background-color: #ebf0fa;
+        
+    }
+    .buy-product{
+        display: block;
+        margin:60px auto;
+        text-align: center;
+        border:1px solid rgb(51, 102, 204);
+        border-radius: 10px 0px 10px 0px;
+        padding:20px 35px;
+        transition:  0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+        font-size:xx-large;
+    }
+    .rate-butn{
+        padding:10px 30px;
+        display: block;
+        margin:30px auto;
+        border:none;
+        border-radius:10px;
+        border:1px solid black;
+        box-shadow: 0 0  10px 0 rgba(0,0,0,0.20);
+        cursor: pointer;
+        color:rgb(59, 117, 171);
+        background-color: rgb(217, 230, 242);
+        font-size: 20px;
+    }
+    .rate-butn:hover{
+        color:rgb(26, 140, 255);
+        background-color: rgb(230, 242, 255);
+    }
+    .quantity-btn-container{
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+    .btn-quantity{
+        height:50px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .quantity-text{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .btn{
+        display: block;
+        margin:20px auto;
+        padding:10px 20px;
+        border:none;
+        border: 1px solid black;
+        border-radius:10px 0 10px 0;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+        cursor: pointer;
+        color:rgb(51, 102, 204);
+        background-color: #ebf0fa;
+        box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
+        border: none;
+        cursor: pointer;
+        background: rgb(243, 243, 245);
+        font-size: 20px;
+    
+    
+    }
+    .btn:hover{
+        border-color: #0d0d25;
+        box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+        color:#0d0d25;
+    }
+    
+    
+
+    
+    
+    
+        
+    
+
+
