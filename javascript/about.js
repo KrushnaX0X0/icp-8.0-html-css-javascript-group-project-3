@@ -135,4 +135,4 @@ function next(){
    }
    mainImg.src = imgarry[imgindex];
 }
-setInterval(next, 3000);
+// setInterval(next, 3000);
