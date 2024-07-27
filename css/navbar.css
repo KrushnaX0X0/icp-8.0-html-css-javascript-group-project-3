@@ -59,11 +59,12 @@
 .theme-select-icon{
  height: 30px;
  cursor: pointer;
-
 }
 .theme-select-container{
     top: 10px;
     height: 10px;
+    margin-right: 40px;
+    
 }
 .bg-dark{
     background-color: black;
