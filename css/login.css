@@ -1,180 +1,73 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f3f3f5;
-}
-
-.form-container {
-    padding: 10px;
-    display: inline-block;
-    border: 2px solid black(99, 137, 156);
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 10px gray;
-
-    background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
-    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
-    margin-top: 20px;
-    height: 530px;
-    width: 450px;
-    
-    
-
-}
-
-.form-container form {
-    padding: 2rem;
-    width: 500px;
-    border-radius: 10px;
-    text-align: center;
-
-}
-
-.title {
-    font-size: 50px;
-}
-
-.container-img {
-    display: flex;
-    height: 500px;
-    padding-top: 0px;
 
 
 
-
-}
-
-.img {
-    height: 550px;
-    width: 650px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px 5px ;
-    margin-left: 0px;
-    margin-top: 20px;
-    background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
-    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
-}
-
-html {
-    font-size: x-small;
-}
-
-
-.form-container form {
-    padding: 2rem;
-    width: 500px;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 20px;
-    
-
-
-}
-
-.form-container form h3 {
-
-
-    text-transform: uppercase;
-    color: black;
-}
-
-.form-container form .box {
-
-    border-radius: .5rem;
-    background-color: light-bg;
-    padding: 1.2rem 1.4rem;
-    font-size: 1.8rem;
-    color: black;
-    margin: 1rem 0;
-
-
-}
-
-
-
-.title {
-    font-size: 40px;
-}
-
-.box {
-    background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
-    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
-}
-
-
-    .button{
-        height: 8vh;
-        width: 13vw;
-        font-size: 1.5vw;
-        font-weight: 500;
-        border-radius: 15px;
-        box-shadow: rgb(178, 178, 179) 9px 9px 12px, rgb(255, 255, 255) -9px -9px 12px;
-        border: none;
-        cursor: pointer;
-        
-        background: rgb(243, 243, 245)
-    }
-    .button:hover{
-        border-color: #0d0d25;
-        box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
-       color:#0d0d25;
-    }
-
-
-
-
-
-
-
-.parent-container {
-    display: flex;
-    justify-content: space-around;
-  
-
-}
-
-
-.form-check {
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.pay-text {
-    font-size: 18px;
-}
-
-.form-check-input {
-    margin-left: 15px;
-}
-
-.form-control {
-    border: none;
-
-}
-
-a {
-    text-decoration: none;
-}
-
-
-body{
-    overflow-x: hidden;
-}
 .header{
     display: flex;
     height: 11rem;
-    align-items: center;
+align-items: center;
     justify-content: space-between;
     padding: 0 4rem;
-    background-color:#b4e1ff    ;
+    background-color:#81b1ce;
     border-color: #f2f2f2;
     box-shadow: 0 10px 55px #d4d4d4;
     
+    
+
+
+    
 }
+
+.img-food{
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 60px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+
+}
+.login-container{
+    width: 400px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 100px 100px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #f1cbcb;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    font-size: large;
+}
+.login{
+    background-color:  rgb(34, 103, 243);;
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.signup{
+    background-color: rgb(34, 103, 243);
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+
+
+
+
 .logo{
     height: 4rem;
 }
@@ -185,7 +78,7 @@ body{
 }
 .link:link, a{
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block; /* to remove underline and add padding */
     font-size: 2rem;
     transition: 0.3s ease-in-out;
     font-weight: 600;
@@ -201,13 +94,25 @@ body{
     height: 100vh;
     background-color: #00ace6;
 }
+.mobile-nav{
+    display: none;
+    background: transparent;
+     cursor: pointer;
+}
+.mob-i{
+    height: 4rem;
+    width: 4rem;
+}
+.x{
+    display: none;
+}
 .footer-continer{
     height: 80vh;
     width: 100%;
     display: flex;
     text-align: center;
     background-color: rgb(187, 186, 184);
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .footer-info{
     height: 100%;
@@ -234,6 +139,14 @@ body{
 .footer-social{
     display: flex;
     justify-content: space-evenly;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px */
+    overflow-x: hidden;
 }
 
 .footer-icon{
@@ -328,13 +241,25 @@ body{
 .company-taxt a{
     margin-top: 3vh;
 }
-@media screen and (max-width:480px) {
+
+
+@media screen and (min-width:400px) and (max-width:570px) {
     .footer-continer{
         height: 190vh;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    .login-container{
+        width: 100px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .img-food{
+        margin-left: 50px;
+        width: 400px;
+    }
+    
     .footer-info{
         height: 50vh;
         width: 100%;
@@ -380,12 +305,17 @@ body{
 
     
 }
-@media screen and (min-width:482px) and (max-width:600px){
+@media screen and (min-width:482px) and (max-width:950px){
     .footer-continer{
         height: 118vh;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+    }
+    .login-container{
+        width: 400px;
+        margin-left: 50px;
+        margin-top: 20px;
     }
     .footer-info{
         height: 40vh;
@@ -635,3 +565,5 @@ body{
               
                 
                 
+
+
