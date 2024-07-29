@@ -112,3 +112,44 @@ function menu(hi) {
       imgsm.classList.remove("remove")
    }
 }
+const imgarry = ["./../img/about-img/1.png"
+    ,"./../img/about-img/2.png","./../img/about-img/3.png",
+    "./../img/about-img/4.png","./../img/about-img/5.png"]
+    let imgindex = 0;
+function next(){
+
+   if (imgindex == imgarry.length - 1) {
+      imgindex = 0;
+   } else {
+      imgindex++;
+    
+   } 
+   mainImg.src = imgarry[imgindex];
+}
+ function prev(){
+   if (imgindex == 0) {
+      imgindex = imgarry.length - 1;
+   } else {
+      imgindex--;
+
+   }
+   mainImg.src = imgarry[imgindex];
+}
+// setInterval(next, 3000);
+// const nytButton = document.getElementById("nyts")
+// const nytcontainer = document.getElementById("about")
+// const btnbox= document.getElementById("btn-box")
+// const btns = document.getElementsByClassName("key")
+// function nyt(hey){
+//   switch (hey) {
+//     case 1:
+//         nytButton.classList.add("nyt")
+//         nytcontainer.classList.add("nyt")
+//         btnbox.classList.add("btn-nyt")
+//         btns.classList.add("btn-nyt")
+//         break;
+  
+//     default:
+//         break;
+//   }
+// }
