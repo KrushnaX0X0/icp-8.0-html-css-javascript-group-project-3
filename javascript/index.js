@@ -1,32 +1,32 @@
 
-function chekquentity(opration) {
+function myfun(opration) {
     let result = document.getElementById('result')
     let resresult = document.getElementById('re-result')
     let value = 100
-    
 
     let count = parseInt(result.innerText)
-    
-    if (opration === "add" && count < 10 ) {
+    if (opration === "add" && count < 5) {
         ++count;
         result.innerText = count
-        
-       let total = (parseInt(value)||100) * (parseInt(count) ||100)
-       resresult.innerText = `RS: ${total}`
+        let total = (parseInt(value) || 100) * (parseInt(count) || 100)
+        resresult.innerText = `RS: ${total}`
 
-   
-     
 
-    } else if (opration === "sub" && count >=2) {
+
+
+    } else if (opration === "sub" && count >= 2) {
         --count;
         result.innerText = count
-                       let total = (parseInt(value)||100) * (parseInt(count)||100)
-       resresult.innerText = `RS: ${total}`
+        let total = (parseInt(value) || 100) * (parseInt(count) || 100)
+        resresult.innerText = `RS: ${total}`
     }
-    else if (count == 1 && opration === "sub"){
+    else if (count == 1 && opration === "sub") {
         return
     }
+
+
 }
+
 
 
 
@@ -119,7 +119,38 @@ function fun4(opration) {
     else if (count == 1 && opration === "sub"){
         return
     }
+
+
+
+
+
+
+
+
 }
+    
+
+
+
+
+const menuButton = document.getElementById("menu")
+const closeButton = document.getElementById("close")
+const remove = document.getElementById('krushna')
+function menu(hi) {
+   let head = document.getElementById("head")
+   if (hi==1) {
+      head.classList.add("active")
+      remove.classList.add('x')
+   }
+   else {
+      head.classList.remove("active")
+      remove.classList.remove('x')  
+   }
+}
+
+
+
+
 
 
 
