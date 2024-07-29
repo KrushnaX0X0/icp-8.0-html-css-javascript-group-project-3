@@ -1,6 +1,3 @@
-function changes() {
-    console.log("change occured");
-}
 const menuButton = document.getElementById("menu")
 const closeButton = document.getElementById("close")
 function menu(hi) {
@@ -10,5 +7,5 @@ function menu(hi) {
    }
    else {
       head.classList.remove("active")
-   }
+    }
 }
