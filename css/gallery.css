@@ -76,6 +76,7 @@ background: linear-gradient(264deg, rgba(252,243,232,1) 53%, rgba(255,255,255,1)
 }
 
 .chef-card img {
+    height: 31vh;
     width: 100%;
     border-bottom: 1px solid #ddd;
     padding-bottom: 15px;
@@ -96,8 +97,9 @@ background: linear-gradient(264deg, rgba(252,243,232,1) 53%, rgba(255,255,255,1)
 
 .social-icons a img {
     width: 24px;
-    height: 24px;
+    height: 37px;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -128,6 +130,7 @@ h2 {
 }
 
 .chef-image img {
+    
     width: 300px;
     height: auto;
     border-radius: 10px;
@@ -364,4 +367,183 @@ h2 {
         padding-left: 30px;
     }
 }
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px */
+    overflow-x: hidden;
+
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    height: 11rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    background-color:#81b1ce;
+    border-color: #f2f2f2;
+    box-shadow: 0 10px 55px #d4d4d4;
+    
+}
+.logo{
+    height: 4rem;
+}
+.navbar-list{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+.link:link, a{
+    text-decoration: none;
+    display: inline-block; /* to remove underline and add padding */
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    color: #212129;
+}
+.link:link:hover, a:hover{
+    color: #00ace6;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00ace6;
+}
+.mobile-nav{
+    display: none;
+    background: transparent;
+     cursor: pointer;
+}
+.mob-i{
+    height: 4rem;
+    width: 4rem;
+}
+.x{
+    display: none;
+}
+
+
+@media screen and (max-width: 1105px){
+    .mobile-nav{
+        display: block;
+        z-index: 900;
+    }
+    .logo{
+        width: 10%;
+        
+    }
+    .header{
+        position: relative;
+    }
+    .nav-bar{
+        position: absolute;
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        background:#b4e1ff ;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .navbar-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .active .nav-bar{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .active .x{
+        display: block;
+    }
+    .active .M{
+        display:none;
+   }
+}
+
+
+    
+
+
+
+
+
+
+@media screen and (max-width: 1105px){
+    .mobile-nav{
+        display: block;
+        z-index: 900;
+    }
+    .logo{
+        width: 10%;
+        
+    }
+    .header{
+        position: relative;
+    }
+    .nav-bar{
+        position: absolute;
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        background-color:#094770 ;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .navbar-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .active .nav-bar{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .active .x{
+        display: block;
+        
+    }
+    .active .M{
+        display:none;
+    }
+
+
+}
+
 
