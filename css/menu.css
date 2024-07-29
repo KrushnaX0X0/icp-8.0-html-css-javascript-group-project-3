@@ -141,7 +141,7 @@ body {
     box-sizing: border-box;
 }
 
-nav {
+/* nav {
     background: #4a4444;
     color: #fff;
     padding: 10px 0;
@@ -162,7 +162,9 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-}
+} */
+
+
 
 .section {
     padding: 60px 0;
@@ -299,7 +301,7 @@ nav ul li a {
     .play-btn-wp {
         top: -100px;
     }
-
+}
 
     
     *{
@@ -330,6 +332,8 @@ nav ul li a {
     }
     .logo{
         height: 4rem;
+        position: relative;
+        top: -2rem;
     }
     .navbar-list{
         display: flex;

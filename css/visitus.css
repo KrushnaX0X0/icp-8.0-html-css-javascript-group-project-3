@@ -304,6 +304,21 @@ body{
         flex-direction: column;
         align-items: center;
     }
+
+
+    .link:link, a{
+        text-decoration: none;
+        display: inline-block; /* to remove underline and add padding */
+        font-size: 2rem;
+        transition: 0.3s ease-in-out;
+        font-weight: 600;
+        color: #212129;
+    }
+    .link:link:hover, a:hover{
+        color: #00ace6;
+    }
+
+
     .active .nav-bar{
         transform: translateX(0);
         opacity: 1;
