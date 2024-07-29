@@ -41,10 +41,10 @@ align-items: center;
     transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
     font-size: large;
 }
-.login{
+.login-btn{
     background-color:  rgb(34, 103, 243);;
     color: white;
-    padding: 7px 25px;
+    padding: 7px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
