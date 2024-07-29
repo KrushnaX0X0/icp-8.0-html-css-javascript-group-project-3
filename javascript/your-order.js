@@ -30,7 +30,7 @@ const quantityText = document.getElementById("quantity-text");
 
       function remove() {
         const empty = document.getElementById("cart");
-        empty.innerHTML = `\n <h3>My Shopping Cart</h3>
+        empty.innerHTML = `\n <h3>Food Website!!!!</h3>
          <div> 
           <p class="text-center mt-4"> 
           You have nothing to order here 

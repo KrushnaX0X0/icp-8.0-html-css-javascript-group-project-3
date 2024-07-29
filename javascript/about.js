@@ -136,3 +136,20 @@ function next(){
    mainImg.src = imgarry[imgindex];
 }
 // setInterval(next, 3000);
+// const nytButton = document.getElementById("nyts")
+// const nytcontainer = document.getElementById("about")
+// const btnbox= document.getElementById("btn-box")
+// const btns = document.getElementsByClassName("key")
+// function nyt(hey){
+//   switch (hey) {
+//     case 1:
+//         nytButton.classList.add("nyt")
+//         nytcontainer.classList.add("nyt")
+//         btnbox.classList.add("btn-nyt")
+//         btns.classList.add("btn-nyt")
+//         break;
+  
+//     default:
+//         break;
+//   }
+// }
