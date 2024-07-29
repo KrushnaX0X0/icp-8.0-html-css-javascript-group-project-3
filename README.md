@@ -35,7 +35,10 @@ The Sassy Spoon is a boutique hotel in Pune that offers a unique and stylish exp
     * A collection of high-resolution photos showcasing the hotel's facilities, rooms, and surroundings.  
 * **Contact Us:** 
     * Easy-to-find contact information, including phone number, email address, and physical address. 
-    * A contact form for inquiries.  
+    * A contact form for inquiries.
+*  **visit us :**
+*   * Easy-to-find location , information, including phone number, email address, and physical address. 
+    * A contact form for inquiries. 
 * **Booking Engine:** 
     * A secure and user-friendly booking engine for guests to reserve their stay online.  
     * Integration with popular payment gateways.  
