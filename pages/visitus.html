@@ -5,9 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/visitus.css">
+    <link rel="stylesheet" href="./../css/footer.css">
 
 </head>
 <body>
+    <header class="header" id="head">
+        <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+            class="logo">
+            <nav class="nav-bar">
+                <ul class="navbar-list">
+                    <li><a class="links"  href="../index.html">HOME</a></li>
+                    <li><a class="links"  href="../pages/about.html">ABOUT</a></li>
+                    <li><a class="links"  href="../pages/menu.html">MENU</a></li>
+                    <li><a class="links"  href="../pages/gallery.html">GALLARY</a></li>
+                    <li><a class="links"  href="../pages/visitus.html">VISIT US</a></li>
+                    <li><a class="links"  href="../pages/blog.html">BLOG</a></li>
+                    <li><a class="links"  href="../pages/order.html">ORDER</a></li>
+                    <li><a class="links"  href="../pages/review.html">REVIEW</a></li>
+                    <li><a class="links"  href="../pages/ourTeam.html">OURTEAM</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav">
+                <ion-icon name="menu-outline"  class="mob-i M" id="menu" onclick="menu(1)"></ion-icon>
+                <ion-icon name="close-outline" class="mob-i x" id="close" onclick="menu(2)"></ion-icon>
+            </div>
+    </header>
+
+
+
     <div class="title-contener">
         <h1>Visit Us</h1>
     </div>
@@ -26,15 +51,16 @@
                 <h2>Contact Us</h2>
                 <form action="submit_form.php" method="post">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" onchange="changes()" id="name" name="name" required>
     
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" onchange="changes()" id="email" name="email" required>
     
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <textarea id="message" onchange="changes()" name="message" required></textarea>
     
-                    <button type="submit">Submit</button>
+                   <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F6148378-Submit-Button-to-Loading-State-Interaction&psig=AOvVaw3mBZtdPRsq8R7z63zM4t_n&ust=1721906725640000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLiYz87Iv4cDFQAAAAAdAAAAABAz" class="btn-submit">submit</a>
+                    
                 </form>
             </div>
         </div>
@@ -48,7 +74,7 @@
             <div class="gmail">
                 <img src="../img/gmail.png" width="20%"><br/>
                 <p>Email Us<br>
-                RestoCafe@gmail.com</p>
+                Restosassy@gmail.com</p>
             </div>
                <div class="google-maps">
                 <img src="../img/google-maps.png" width="20%"><br/>
@@ -56,8 +82,115 @@
                   Pune</p>
                </div>
         </div>
-    </main>  
-    
+    </main> 
+    <div class="Footer">
+        <span class="FooterAdd">
+            <img class="img-footer" src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+            height="70px" style="margin-left: 0; margin-top: 0;"><br>
+        </span>
+        <span class="OpenHours">
+            <font>
+                Opening Hours:
+            </font><br><br>
+            <font>
+                Monday<br>
+                Tuesday<br>
+                Wednesday<br>
+                Thursday<br>
+                Friday<br>
+                Saturday<br>
+                Sunday<br>
+            </font>
+        </span>
+        <span class="OpenTimes">
+            <font>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                Closed<br>
+            </font>
+        </span>
+        <span class="Contactus">
+            <font>
+                Contact Us:
+            </font><br><br>
+            <font>
+                pune, Maharashtra
+            </font><br><br>
+            <font>
+                +91-8456032198
+            </font>
+        </span>
+        <span class="Reachus">
+            <font>
+                Reach to Us:
+            </font><br><br>
+            <font>
+                food@gmail.com
+            </font><br>
+        </span>
+        </div>
 
+        <div class="footer-continer">
+            <div class="footer-info">
+              <img src="../img/new logo.png"  class="footer-logo">
+              <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.</p>
+              <div class="footer-social">
+             <a href="https://www.facebook.com/harsh.meshram.5891?mibextid=ZbWKwL"> <img src="../img/facebooklogo.png" alt="" class="footer-icon">     </a>
+             <a href="https://www.instagram.com/krushna.jagtap_96k/"> <img src="../img/instagram.png" alt=""  class="footer-icon">   </a>
+             <a href="https://github.com/KrushnaX0X0"> <img src="../img/github logo.png" alt=""  class="footer-icon">   </a>
+             <a href="https://www.youtube.com/results?search_query=chikenbriani+recipe"> <img src="../img/youtube logo.png" alt=""  class="footer-icon">   </a>
+               </div>
+        
+        
+        
+            </div>
+            <div class="footer-time">
+              <h1>Open Hours</h1>
+              <p> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>Mon-Thurs : 9am - 22pm</p>
+              <p class="pag">  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>  Fri-Sun : 11am - 22pm </p>
+        
+        
+            </div>
+        
+            <div class="footer-link">
+              <h1>Link</h1>
+              <ul class="footer-pages">
+                <a class="links"  href="../index.html">HOME</a>
+                <a class="links"  href="./about.html">ABOUT</a>
+                <a class="links"  href="./menu.html">MENU</a>
+                <a class="links"  href="./gallery.html">GALLARY</a>
+                <a class="links"  href="./visitus.html">VISITOR</a>
+                <a class="links"  href="./blog.html">BLOG</a>
+                <a class="links"  href="./order.html">ORDER</a>
+                <a class="links"  href="./review.html">REVIEW</a>
+                <a class="links"  href="./ourTeam.html">OURTEAM</a>
+            </ul>
+        
+            </div>
+        
+            <div class="footer-compani">
+              <h1>Company</h1>
+              <div class="company-taxt">
+              <a href="../index.html">Terms & Conditions   </a>
+              <a href="../index.html">Privacy Policy</a>
+              <a href="../index.html">Cookie Policy</a>
+        
+              </div>
+        
+            </div>
+          </div>
+
+        
+ 
+    <script src="../javascript/visitus.js">
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

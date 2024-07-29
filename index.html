@@ -2,208 +2,304 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>home page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  
+
+
+  <title>home page</title>
 </head>
 
-<body>
-    <div class="tital-continer">
-        <div class="left">
-            <h1>Welcome To Our <span>India</span> Restautant</h1>
-            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-                ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+<body >
 
+
+
+
+
+
+  <header class="header" id="head">
+    <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+        class="logo">
+        <nav class="nav-bar">
+            <ul class="navbar-list">
+                <li><a class="links"  href="./index.html">HOME</a></li>
+                <li><a class="links"  href="./pages/about.html">ABOUT</a></li>
+                <li><a class="links"  href="./pages/menu.html">MENU</a></li>
+                <li><a class="links"  href="./pages/gallery.html">GALLARY</a></li>
+                <li><a class="links"  href="./pages/visitus.html">VISITOR</a></li>
+                <li><a class="links"  href="./pages/blog.html">BLOG</a></li>
+                <li><a class="links"  href="./pages/order.html">ORDER</a></li>
+                <li><a class="links"  href="./pages/review.html">REVIEW</a></li>
+                <li><a class="links"  href="./pages/ourTeam.html">OURTEAM</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <ion-icon name="menu-outline"  class="mob-i M" id="menu" onclick="menu(1)"></ion-icon>
+            <ion-icon name="close-outline" class="mob-i x" id="close" onclick="menu(2)"></ion-icon>
         </div>
-
-
-        <div class="right">
-            <img src="./img/frant -photo.jpg" alt="">
-        </div>
-    </div>
-    <div id="page2">
-        <h1>Wake Up Early,</h1>
-        <h1>Eat Fresh & Healthy </h1>
-        <div class="page2-btn">
-          <a href="./pages/menu.html">  <button class="btn">More Menu</button></a>
-        </div>
-        <div id="card-continer">
-            <div class="card">
-                <div class="card-img">
-                    <img src="./img/dish1.png" alt="">
-                </div>
-                <div class="dish-rating">
-                    5.
-                    <img src="./img/star.png" alt="" style="height: 15px;">
-                </div>
-                <div class="info">
-                    <h3>
-                        Fresh Chicken Veggies
-                    </h3>
-                    <p>120 calories</p>
-                    
-                </div>
-                <div class="que">
-                    <b>Quentity</b>
-                    </div>
-                <div class="quentity">
-                    <img src="./img/plus.png" alt="" style="height: 25px;" onclick="chekquentity('add')">
-                    <p  class="product-quentity" id="result">1</p>
-                    <img src="./img/minus-circular-button-outline.png" style="height:25px ;" onclick="chekquentity('sub')">
-                </div>
-                <div class="prise">
-                    <p id="re-result">RS.100</p>
-                </div>
-                <div class="order-btn">
-                    <a href="./order.html"><button class="btn">Orderv Now</button></a>
-                </div>
-
-
-
-
-            </div>
-
-            <div class="card">
-                <div class="card-img">
-                    <img src="./img/dish2.png" alt="">
-                </div>
-                <div class="dish-rating">
-                    5.4
-                    <img src="./img/star.png" alt="" style="height: 15px;">
-                </div>
-                <div class="info">
-                    <h3>
-                        Grilled Chicken
-                    </h3>
-                    <p>80 calories</p>
-                    
-                </div>
-                <div class="que">
-                    <b>Quentity</b>
-                    </div>
-                <div class="quentity">
-                    <img src="./img/plus.png" alt="" style="height: 25px;" onclick="fun2('add')">
-                    <p  class="product-quentity" id="card2-quen">1</p>
-                    <img src="./img/minus-circular-button-outline.png" style="height:25px ;" onclick="fun2('sub')">
-                </div>
-                <div class="prise">
-                    <p id="prise-result2">RS.80</p>
-                </div>
-                <div class="order-btn">
-                    <a href="./order.html"><button class="btn">Orderv Now</button></a>
-                </div>
-
-
-
-
-            </div>
-
-
-
-            <div class="card">
-                <div class="card-img">
-                    <img src="./img/dish3.png" alt="">
-                </div>
-                <div class="dish-rating">
-                    4.3
-                    <img src="./img/star.png" alt="" style="height: 15px;">
-                </div>
-                <div class="info">
-                    <h3>
-                        Panner Noodles
-                    </h3>
-                    <p>100  calories</p>
-                    
-                </div>
-                <div class="que">
-                    <b>Quentity</b>
-                    </div>
-                <div class="quentity">
-                    <img src="./img/plus.png" alt="" style="height: 25px;" onclick="fun3('add')">
-                    <p class="product-quentity" id="card3-quen">1</p>
-                    <img src="./img/minus-circular-button-outline.png" style="height:25px ;" onclick="fun3('sub')">
-                </div>
-                <div class="prise">
-                    <p id="prise-result3">RS.120</p>
-                </div>
-                <div class="order-btn">
-                    <a href="./order.html"><button class="btn">Orderv Now</button></a>
-                </div>
-
-
-
-
-            </div>
+</header>
 
 
 
 
 
-            <div class="card">
-                <div class="card-img">
-                    <img src="./img/dish1.png" alt="">
-                </div>
-                <div class="dish-rating">
-                    5.
-                    <img src="./img/star.png" alt="" style="height: 15px;">
-                </div>
-                <div class="info">
-                    <h3>
-                        Fresh Chicken Veggies
-                    </h3>
-                    <p>120 calories</p>
-                    
-                </div>
-                <div class="que">
-                    <b>Quentity</b>
-                    </div>
-                <div class="quentity">
-                    <img src="./img/plus.png" alt="" style="height: 25px;" onclick="fun4('add')">
-                    <p class="product-quentity" id="card4-quen">1</p>
-                    <img src="./img/minus-circular-button-outline.png" style="height:25px ;" onclick="fun4('sub')">
-                </div>
-                <div class="prise">
-                    <p id="prise-result4">RS.100</p>
-                </div>
-                <div class="order-btn">
-                    <a href="./order.html"><button class="btn">Orderv Now</button></a>
-                </div>
+
+  
 
 
 
 
-            </div>
 
 
-
-            
-
-
-
-
-            
-
-        </div>
-
-
-    </div>
-
-    <div id="page3">
-        <h6>TRUSTED BY 70+ COMPANIES</h6>
-
-        <div id="compani-iteam">
-            <img src="./img/b1.png" class="iteam" alt="">
-            <img src="./img/b2.png" class="iteam" alt="">
-            <img src="./img/b3.png" class="iteam" alt="">
-            <img src="./img/b4.png" class="iteam" alt="">
-            <img src="./img/b5.png" class="iteam" alt="">
-        </div>
+  <div class="tital-continer">
+    <div class="left" id="krushna">
+      <h1>Welcome To Our <span>India</span> Restaurant</h1>
+      <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+        ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
 
     </div>
 
 
+    <div class="right">
+      <img src="./img/frant -photo.jpg" alt="">
+    </div>
+  </div>
+  <div id="page2">
+    <h1>Wake Up Early,</h1>
+    <h1>Eat Fresh & Healthy </h1>
+    <div class="page2-btn">
+      <a href="./pages/menu.html"> <button class="btn">More Menu</button></a>
+    </div>
+    <div id="card-continer">
+      <div class="card">
+        <div class="card-img">
+          <img src="./img/dish1.png" alt="">
+        </div>
+        <div class="dish-rating">
+          5.
+          <img src="./img/star.png" alt="" style="height: 15px;">
+        </div>
+        <div class="info">
+          <h3>
+            Fresh Chicken Veggies
+          </h3>
+          <p>120 calories</p>
+
+        </div>
+        <div class="que">
+          <b>Quentity</b>
+        </div>
+        <div class="quentity">
+          <img src="./img/plus.png" alt="" style="height: 25px;"  onclick="myfun('add')">
+          <p class="product-quentity" id="result">1</p>
+          <img src="./img/minus.png" style="height:25px ;" onclick="myfun('sub')" >
+        </div>
+        <div class="prise">
+          <p id="re-result">RS.100</p>
+        </div>
+        <div class="order-btn">
+          <a href="./order.html"><button class="btn">Orderv Now</button></a>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./img/dish2.png" alt="">
+        </div>
+        <div class="dish-rating">
+          5.4
+          <img src="./img/star.png" alt="" style="height: 15px;">
+        </div>
+        <div class="info">
+          <h3>
+            Grilled Chicken
+          </h3>
+          <p>80 calories</p>
+
+        </div>
+        <div class="que">
+          <b>Quentity</b>
+        </div>
+        <div class="quentity">
+          <img src="./img/plus.png" alt="" style="height: 25px;" onclick="fun2('add')">
+          <p class="product-quentity" id="card2-quen">1</p>
+          <img src="./img/minus.png" style="height:25px ;" onclick="fun2('sub')">
+        </div>
+        <div class="prise">
+          <p id="prise-result2">RS.80</p>
+        </div>
+        <div class="order-btn">
+          <a href="./order.html"><button class="btn">Orderv Now</button></a>
+        </div>
+
+
+
+
+      </div>
+
+
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./img/dish3.png" alt="">
+        </div>
+        <div class="dish-rating">
+          4.3
+          <img src="./img/star.png" alt="" style="height: 15px;">
+        </div>
+        <div class="info">
+          <h3>
+            Panner Noodles
+          </h3>
+          <p>100 calories</p>
+
+        </div>
+        <div class="que">
+          <b>Quentity</b>
+        </div>
+        <div class="quentity">
+          <img src="./img/plus.png" alt="" style="height: 25px;" onclick="fun3('add')">
+          <p class="product-quentity" id="card3-quen">1</p>
+          <img src="./img/minus.png" style="height:25px ;" onclick="fun3('sub')">
+        </div>
+        <div class="prise">
+          <p id="prise-result3">RS.120</p>
+        </div>
+        <div class="order-btn">
+          <a href="./order.html"><button class="btn">Orderv Now</button></a>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./img/dish1.png" alt="">
+        </div>
+        <div class="dish-rating">
+          5.
+          <img src="./img/star.png" alt="" style="height: 15px;">
+        </div>
+        <div class="info">
+          <h3>
+            Fresh Chicken Veggies
+          </h3>
+          <p>120 calories</p>
+
+        </div>
+        <div class="que">
+          <b>Quentity</b>
+        </div>
+        <div class="quentity">
+          <img src="./img/plus.png" alt="" style="height: 25px;" onclick="fun4('add')">
+          <p class="product-quentity" id="card4-quen">1</p>
+          <img src="./img/minus.png" style="height:25px ;" onclick="fun4('sub')">
+        </div>
+        <div class="prise">
+          <p id="prise-result4">RS.100</p>
+        </div>
+        <div class="order-btn">
+          <a href="./order.html"><button class="btn">Orderv Now</button></a>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+  <div id="page3">
+    <h6>TRUSTED BY 70+ COMPANIES</h6>
+
+    <div id="compani-iteam">
+      <img src="./img/b1.png" class="iteam" alt="">
+      <img src="./img/b2.png" class="iteam" alt="">
+      <img src="./img/b3.png" class="iteam" alt="">
+      <img src="./img/b4.png" class="iteam" alt="">
+      <img src="./img/b5.png" class="iteam" alt="">
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="footer-continer">
+    <div class="footer-info">
+      <img src="./img/new logo.png"  class="footer-logo">
+      <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.</p>
+      <div class="footer-social">
+     <a href="https://www.facebook.com/harsh.meshram.5891?mibextid=ZbWKwL"> <img src="./img/facebooklogo.png" alt="" class="footer-icon">     </a>
+     <a href="https://www.instagram.com/krushna.jagtap_96k/"> <img src="./img/instalogo.png" alt=""  class="footer-icon">   </a>
+     <a href="https://github.com/KrushnaX0X0"> <img src="./img/github logo.png" alt=""  class="footer-icon">   </a>
+     <a href="https://www.youtube.com/results?search_query=chikenbriani+recipe"> <img src="./img/youtube logo.png" alt=""  class="footer-icon">   </a>
+       </div>
+
+
+
+    </div>
+    <div class="footer-time">
+      <h1>Open Hours</h1>
+      <p> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>Mon-Thurs : 9am - 22pm</p>
+      <p class="pag">  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>  Fri-Sun : 11am - 22pm </p>
+
+
+    </div>
+
+    <div class="footer-link">
+      <h1>Link</h1>
+      <ul class="footer-pages">
+        <a class="links"  href="./index.html">HOME</a>
+        <a class="links"  href="./pages/about.html">ABOUT</a>
+        <a class="links"  href="./pages/menu.html">MENU</a>
+        <a class="links"  href="./pages/gallery.html">GALLARY</a>
+        <a class="links"  href="./pages/visitus.html">VISITOR</a>
+        <a class="links"  href="./pages/blog.html">BLOG</a>
+        <a class="links"  href="./pages/order.html">ORDER</a>
+        <a class="links"  href="./pages/review.html">REVIEW</a>
+        <a class="links"  href="./pages/ourTeam.html">OURTEAM</a>
+    </ul>
+
+    </div>
+
+    <div class="footer-compani">
+      <h1>Company</h1>
+      <div class="company-taxt">
+      <a href="./index.html">Terms & Conditions   </a>
+      <a href="./index.html">Privacy Policy</a>
+      <a href="./index.html">Cookie Policy</a>
+
+      </div>
+
+    </div>
+  </div>
 
 
 
@@ -220,7 +316,26 @@
 
 
 
-    <script src="./javascript/index.js"></script>
+
+
+
+
+
+
+
+  <script src="./javascript/index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="./javascript/navbar&footer.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
 </body>
 
 </html>
