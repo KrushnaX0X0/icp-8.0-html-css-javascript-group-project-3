@@ -5,16 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Restaurant Name</title>
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+
+
+    <header class="header" id="head">
+        <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+            class="logo">
+            <nav class="nav-bar">
+                <ul class="navbar-list">
+                    <li><a class="links"  href="../index.html">HOME</a></li>
+                    <li><a class="links"  href="../pages/about.html">ABOUT</a></li>
+                    <li><a class="links"  href="../pages/menu.html">MENU</a></li>
+                    <li><a class="links"  href="../pages/gallery.html">GALLARY</a></li>
+                    <li><a class="links"  href="../pages/visitus.html">VISIT US</a></li>
+                    <li><a class="links"  href="../pages/blog.html">BLOG</a></li>
+                    <li><a class="links"  href="../pages/order.html">ORDER</a></li>
+                    <li><a class="links"  href="../pages/review.html">REVIEW</a></li>
+                    <li><a class="links"  href="../pages/ourTeam.html">OURTEAM</a></li>
+                    <li><a class="links"  href="../pages/login.html">LOGIN</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav">
+                <ion-icon name="menu-outline"  class="mob-i M" id="menu" onclick="menu(1)"></ion-icon>
+                <ion-icon name="close-outline" class="mob-i x" id="close" onclick="menu(2)"></ion-icon>
+            </div>
+    </header>
+    
+
+    
+    
+            
+    
+
+        
+    
+
 
     <section id="about" class="about-video section">
         <div class="container">
@@ -31,7 +60,7 @@
     </section>
      
 
-    <section id="menu" class="our-menu section bg-light repeat-img" style="background-image: url('assets/images/menu-bg.png');">
+    <section id="menu" class="our-mensection bg-light repeat-img" style="background-image: url('assets/images/menu-bg.png');">
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
@@ -152,65 +181,67 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-widget">
-                        <h4>Contact Us</h4>
-                        <ul class="contact-info">
-                            <li>
-                                <i class="uil uil-map-marker"></i>
-                                123 Street, City, Country
-                            </li>
-                            <li>
-                                <i class="uil uil-phone"></i>
-                                <a href="tel:+1234567890">+1234567890</a>
-                            </li>
-                            <li>
-                                <i class="uil uil-envelope"></i>
-                                <a href="mailto:info@example.com">info@example.com</a>
-                            </li>
-                        </ul>
-                        <ul class="social-list">
-                            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
-                            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
-                            <li><a href="#"><i class="uil uil-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-widget">
-                        <h4>Opening Hours</h4>
-                        <ul class="opening-hours">
-                            <li>Monday - Thursday: <span>9:00 am - 22:00 pm</span></li>
-                            <li>Friday - Sunday: <span>11:00 am to 20:00 pm</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="footer-widget">
-                        <h4>Newsletter</h4>
-                        <form action="#" class="newsletter-form">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <button type="submit" class="btn">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p id="productivity-counter">Time spent on this site: 0 seconds</p>
-                </div>
-            </div>
+    <div class="footer-continer">
+        <div class="footer-info">
+          <img src=".././img/new logo.png"  class="footer-logo">
+          <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.</p>
+          <div class="footer-social">
+         <a href="https://www.facebook.com/harsh.meshram.5891?mibextid=ZbWKwL"> <img src="../img/facebooklogo.png" alt="" class="footer-icon">     </a>
+         <a href="https://www.instagram.com/krushna.jagtap_96k/"> <img src="../img/instalogo.png" alt=""  class="footer-icon">   </a>
+         <a href="https://github.com/KrushnaX0X0"> <img src="../img/github logo.png" alt=""  class="footer-icon">   </a>
+         <a href="https://www.youtube.com/results?search_query=chikenbriani+recipe"> <img src="../img/youtube logo.png" alt=""  class="footer-icon">   </a>
+    </div>
+
+    
+
         </div>
-    </footer>
+        <div class="footer-time">
+          <h1>Open Hours</h1>
+          <p> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>Mon-Thurs : 9am - 22pm</p>
+          <p class="pag">  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>  Fri-Sun : 11am - 22pm </p>
+    
+    
+        </div>
+    
+        <div class="footer-link">
+          <h1>Link</h1>
+          <ul class="footer-pages">
+            <a class="links"  href="./index.html">HOME</a>
+            <a class="links"  href="./pages/about.html">ABOUT</a>
+            <a class="links"  href="./pages/menu.html">MENU</a>
+            <a class="links"  href="./pages/gallery.html">GALLARY</a>
+            <a class="links"  href="./pages/visitus.html">VISITOR</a>
+            <a class="links"  href="./pages/blog.html">BLOG</a>
+            <a class="links"  href="./pages/order.html">ORDER</a>
+            <a class="links"  href="./pages/review.html">REVIEW</a>
+            <a class="links"  href="./pages/ourTeam.html">OURTEAM</a>
+        </ul>
+    
+        </div>
+    
+        <div class="footer-compani">
+          <h1>Company</h1>
+          <div class="company-taxt">
+          <a href="./index.html">Terms & Conditions   </a>
+          <a href="./index.html">Privacy Policy</a>
+          <a href="./index.html">Cookie Policy</a>
+    
+          </div>
+    
+        </div>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../javascript/menu.js"></script>
+    <script src="../javascript/navbar&footer.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
