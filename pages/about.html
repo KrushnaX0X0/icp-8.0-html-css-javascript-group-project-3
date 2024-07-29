@@ -13,11 +13,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./../css/navbar.css">
-        <link rel="stylesheet" href="./../css/footer.css" />
+        
 </head>
 
-<body>
+<body id="nyts">
     <header class="header" id="head">
         <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
             class="logo">
@@ -28,10 +27,11 @@
                     <li><a class="links"  href="./menu.html">MENU</a></li>
                     <li><a class="links"  href="./gallery.html">GALLARY</a></li>
                     <li><a class="links"  href="./visitus.html">VISITOR</a></li>
-                    <li><a class="links"  href="">BLOG</a></li>
+                    <li><a class="links"  href="./../pages/blog.html">BLOG</a></li>
                     <li><a class="links"  href="./order.html">ORDER</a></li>
                     <li><a class="links"  href="./review.html">REVIEW</a></li>
                     <li><a class="links"  href="./ourTeam.html">OURTEAM</a></li>
+                    <li><a href="./login.html" class="links">LOGIN</a></li>
                 </ul>
             </nav>
             <div class="mobile-nav">
@@ -75,8 +75,8 @@
         </div>
         <div class="btn-container">
             <p class="dec">Try our famous recepi at home</p>
-            <div class="btn-box">
-                <button class="key" onclick="output(1)">Butter Chicken</button>
+            <div class="btn-box" id="btn-box">
+                <button class="key"  onclick="output(1)">Butter Chicken</button>
                 <button class="key" onclick="output(2)">Dal Makhani</button>
                 <button class="key" onclick="output(3)">Palak Paneer</button>
                 <button class="key" onclick="output(4)">Biryani</button>
