@@ -36,4 +36,3 @@ function menu(hi) {
       head.classList.remove("active")
    }
 }
-
