@@ -36,7 +36,7 @@ const quantityText = document.getElementById("quantity-text");
           You have nothing to order here 
           </p> 
           <p class="text-center">
-             Please <a href="../index.html">Click here</a> to continue shopping 
+             Please <a href="../index.html">Click here</a> to continue order
             </p> 
           </div>`;
       }
