@@ -170,7 +170,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 4rem;
-    background-color:#b4e1ff    ;
+  background-color:#81b1ce;
     border-color: #f2f2f2;
     box-shadow: 0 10px 55px #d4d4d4;
     
@@ -208,6 +208,7 @@ body{
     text-align: center;
     background-color: rgb(187, 186, 184);
     margin-top: 10px;
+    
 }
 .footer-info{
     height: 100%;
