@@ -17,7 +17,7 @@
                 <li><a class="links"  href="../pages/about.html">ABOUT</a></li>
                 <li><a class="links"  href="../pages/menu.html">MENU</a></li>
                 <li><a class="links"  href="../pages/gallery.html">GALLARY</a></li>
-                <li><a class="links"  href="../pages/Untitled-1.html">VISITOR</a></li>
+                <li><a class="links"  href="../pages/Untitled-1.html">VISIt US</a></li>
                 <li><a class="links"  href="../pages/blog.html">BLOG</a></li>
                 <li><a class="links"  href="../pages/order.html">ORDER</a></li>
                 <li><a class="links"  href="../pages/review.html">REVIEW</a></li>
@@ -60,17 +60,22 @@
         const Username = document.getElementById("username");
         const Password = document.getElementById("password");  
 
+        
+
         function login(){
             const loginElement = document.getElementById("login");
-            if(!Username.value == "admin" && Password.value == "<PASSWORD>"){
-                alert("Invalid username or password");
-                
-                window.location.href = "./../index.html";
-            }else{
+            const user = Username.value
+            const pass = Password.value
+            if (!user && !pass) {
+                alert('please enter your name');
+                return;
+            }
+            else{
                 alert("Login Successful");
                 window.location.href = "./../index.html";
-            }   
+            }
         }
+      </script>
       </script>
 
 
