@@ -70,7 +70,7 @@ background: linear-gradient(264deg, rgba(252,243,232,1) 53%, rgba(255,255,255,1)
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
-    width: 200px;
+    width: 230px;
     text-align: center;
     padding: 20px;
 }
@@ -139,7 +139,7 @@ h2 {
 .testimonials-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     margin-top: 20px;
 }
@@ -151,6 +151,7 @@ h2 {
     padding: 20px;
     max-width: 200px;
     text-align: center;
+    margin-left: 2px;
 }
 
 .card img {
@@ -545,5 +546,239 @@ body{
 
 
 }
+
+
+
+/*footer css*/
+
+
+
+
+.footer-continer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(187, 186, 184);
+}
+.footer-info{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+
+}
+.footer-logo {
+    height: 20vh;
+    width: 20vw;
+    
+    object-fit: contain;
+}
+
+.footer-info p{
+    color:black;
+    margin-top: 40px;
+    font-size: 1vw;
+    margin-bottom: 5vh;
+}
+.footer-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1vw;
+    object-fit: cover;
+}
+
+.footer-icon:hover{
+    box-shadow: 5px 5px 20px rgb(158, 157, 157);
+}
+.footer-time{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-time h1{
+    font-size: 2.5vw;
+    margin-top: 10vh;
+    color:black;
+    margin-bottom: 10vh;
+}
+
+.footer-time p{
+    color: black;
+    font-size: 1.5vw;
+    display: flex;
+    
+}
+.pag{
+    margin-top: 2vh;
+}
+.footer-time p svg{
+
+    height: 3vh;
+}
+.footer-link{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+
+}
+.footer-pages{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link a{
+    margin-top: 2vh;
+    text-decoration: none;
+}
+.footer-link a{
+    text-decoration: none;
+}
+.footer-link h1{
+    margin-top: 10vh;
+    font-size: 2.5vw;
+}
+
+
+.footer-compani{
+    height: 100%;
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+
+}
+.footer-compani h1{
+    font-size: 2.5vw;
+    margin-top: 10vh;
+    color:black;;
+}
+.company-taxt{
+    display: flex;
+    flex-direction: column;
+}
+.company-taxt a{
+    margin-top: 3vh;
+
+}
+
+
+@media screen and (max-width:480px) {
+    .footer-continer{
+        height: 190vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-info{
+        height: 50vh;
+        width: 100%;
+    }
+    .footer-logo{
+        display: block;
+        margin: 0px auto;
+        height: 22vh;
+        width: 69vw
+    }
+
+    .footer-info p{
+        font-size: 4vw;
+    }
+    .footer-time{
+        height: 50vh;
+        width: 100%;
+    }
+    .footer-time h1{
+        font-size: 7.5vw;
+        color: #8f2839;
+    }
+    .footer-time p{
+        font-size: 5.5vw;
+    }
+    .footer-link{
+        width: 100%;
+        height: 61vh;
+    }
+    .footer-link h1{
+        font-size: 9.5vw;
+        color: #8f2839;
+
+    }
+    .footer-compani{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .footer-compani h1{
+        font-size: 7.5vw;
+        color: #8f2839;
+    }
+
+    
+}
+
+
+@media screen and (min-width:482px) and (max-width:600px){
+    .footer-continer{
+        height: 118vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .footer-info{
+        height: 40vh;
+        width: 50%;
+    }
+    .footer-info p{
+        font-size: 2vw;
+
+    }
+    .footer-time{
+        height: 40vh;
+        width: 50%;
+    }
+    .footer-time h1{
+        font-size: 3vw;
+    }
+    .footer-time p{
+        font-size: 2.5vw;
+    }
+    .footer-link{
+        height: 80vh;
+        width: 50%;
+    }
+
+    .footer-compani{
+        height: 80vh;
+        width: 50%;
+    }
+    
+}
+
+
 
 
