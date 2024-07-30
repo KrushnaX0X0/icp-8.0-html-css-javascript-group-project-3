@@ -1,4 +1,75 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px */
+    overflow-x: hidden;
+
+}
+body{
+    overflow-x: hidden;
+   
+}
+.header{
+    display: flex;
+    height: 11rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    background-color:#81b1ce;
+    border-color: #f2f2f2;
+    box-shadow: 0 10px 55px #d4d4d4;
+   
+    
+}
+.logo{
+    height: 4rem;
+}
+.navbar-list{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+.link:link, a{
+    text-decoration: none;
+    display: inline-block; /* to remove underline and add padding */
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    color: #212129;
+}
+.link:link:hover, a:hover{
+    color: #00ace6;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00ace6;
+}
+.mobile-nav{
+    display: none;
+    background: transparent;
+     cursor: pointer;
+}
+.mob-i{
+    height: 4rem;
+    width: 4rem;
+}
+.x{
+    display: none;
+}
+
 body {
+
+
     font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
@@ -8,10 +79,10 @@ body {
     background-color:rgb(252,243,232);
     ;
 }
-.header {
+.Heading{
+    font-size: 30px;
     text-align:center;
    padding-top: 10px;
-  
  
    
 } 
@@ -42,9 +113,11 @@ body {
 }
 
 .chef-card:hover {
-    transform: translateY(-10px);
+    transform: scale(1.1);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+    
+   
 
 .chef-photo {
     width: 100px;
@@ -84,17 +157,15 @@ body {
 }
 
 .social-icons a {
-    color: #555;
-    margin: 0 5px;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: color 0.3s;
+    border-radius: 38px 38px 0 0;
 
 }
 
 .social-icons a:hover {
     color: #0073b1;
 }
+
+
 
 @media (max-width: 1024px) {
     .chef-cards-container {
