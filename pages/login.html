@@ -22,6 +22,8 @@
                 <li><a class="links"  href="../pages/order.html">ORDER</a></li>
                 <li><a class="links"  href="../pages/review.html">REVIEW</a></li>
                 <li><a class="links"  href="../pages/ourTeam.html">OURTEAM</a></li>
+                <li><a class="links"  href="../pages/login.html">LOGIN</a></li>
+
             </ul>
         </nav>
         <div class="mobile-nav">
@@ -38,25 +40,38 @@
     </div>
 
 <div class="login-container">
-         <h2>Login</h2>
+         <h2>Login</h2><br/><br/>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br/><br/>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br/><br/>
-        <button class="login" onclick="login()" id="login" type="submit">Login</button>
+        <button  class="login-btn" onclick="login()" id="login" type="submit"><a href="../index.html">Login</a></button>
         
-        <button class="signup" id="signup" type="submit">Signup</button>
-
         
 
 </div>
-<script>
-    function login(){
-        const loginElement = document.getElementById("login");
-        const src = "file:///C:/Users/Pranjal/Desktop/icp-8.0-html-css-javascript-group-project-3/index.html"
-    }
-</script>
 
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const Username = document.getElementById("username");
+        const Password = document.getElementById("password");  
+
+        function login(){
+            const loginElement = document.getElementById("login");
+            if(!Username.value == "admin" && Password.value == "<PASSWORD>"){
+                alert("Invalid username or password");
+                
+                window.location.href = "./../index.html";
+            }else{
+                alert("Login Successful");
+                window.location.href = "./../index.html";
+            }   
+        }
+      </script>
 
 
     <div class="footer-continer">
@@ -103,6 +118,7 @@
           <a href="./index.html">Cookie Policy</a>
     
           </div>
+          
     
         </div>
       </div>

@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 .header{
@@ -41,10 +44,10 @@ align-items: center;
     transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
     font-size: large;
 }
-.login{
+.login-btn{
     background-color:  rgb(34, 103, 243);;
     color: white;
-    padding: 7px 25px;
+    padding: 7px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -240,6 +243,218 @@ html{
 }
 .company-taxt a{
     margin-top: 3vh;
+}
+@media screen and (max-width:480px) {
+    
+    .tital-continer{
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
+
+    }
+    .logo{
+        width: 20vw;
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 440vh;
+        width: 100%;
+    }
+    .page2-btn{
+        margin-top: 5vh;
+    }
+
+
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin: 0px;
+      
+    }
+    .card{
+        height: 80vh;
+        width: 82vw;
+        margin-top: 150px;
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dish-rating{
+        font-size: 4.5vw;
+    }
+    .info h3{
+        font-size: 6vw;
+    }
+    .info p{
+        font-size: 4vw;
+    }
+    .que{
+        font-size: 5vw;
+    }
+    .quentity p{
+        font-size: 4.5vw;
+    }
+    .prise p{
+        font-size: 5vw;
+    }
+    .btn{
+        width: 42vw;
+        font-size: 3.5vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 171vh;
+        margin: 0px;
+        
+    }
+    #page3 h6{
+        font-size: 5vw;
+    }
+
+    #compani-iteam{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .iteam {
+        width: 73vw;
+    }
+}
+@media screen and (min-width:481px) and (max-width:721px) {
+    .tital-continer{
+        height: 52vh;
+      
+        overflow: hidden;
+    }
+   .tital-continer .left h1{
+      text-align: center;
+      font-size: 8vw;
+
+    }
+    .left{
+        height: 37vh;
+        width: 100%;
+        
+
+    }
+    .left P{
+        width: 100%;
+        text-align: center;
+
+    }
+    #page2{
+        height: 235vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px white;
+    }
+    .right img{
+        border-radius: 50%;
+    }
+    #card-continer{
+        height: 100vh;
+        margin:0px;
+      
+    }
+    .card{
+        height: 84vh;
+        width: 40vw;
+        margin-top: 20vh;
+        
+    }
+    .card-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dish-rating{
+        font-size: 3.5vw;
+    }
+    .info h3{
+        font-size: 4vw;
+    }
+    .info p{
+        font-size: 3vw;
+    }
+    .que{
+        font-size: 3.5vw;
+    }
+    .quentity p{
+        font-size: 4vw;
+    }
+    .prise p{
+        font-size: 3.5vw;
+    }
+    .btn{
+        width: 27vw;
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+    #page3 {
+        height: 113vh;
+        margin: 0px;
+        
+    }
+    #page3 h6{
+        font-size: 5vw;
+    }
+
+    #compani-iteam{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+    
+        
+    }
+    .iteam {
+        width: 40vw;
+    }
+
 }
 
 

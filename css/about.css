@@ -21,8 +21,11 @@
     align-items: center;
     text-align: center;
 }
+.btn-nyt button{
+    box-shadow: rgb(44,95,136) 5px 8px 1px, rgb(44,95,136) -9px -9px 12px;
+    background: rgb(243, 243, 245)
 
-
+}
 .container .about {
     margin-top: 25px;
     text-align: center;
@@ -113,6 +116,7 @@
     height: 4.5rem;
     margin: 10px;
     transition: 2s linear;
+    cursor:pointer;
 }
 .btn-r:hover{
    scale: 1.2;
@@ -280,11 +284,19 @@ body {
     box-shadow: 0 10px 55px #d4d4d4;
 
 }
-
+.modes-btn{
+    height: 3rem;
+    margin: 1rem;
+}
+.nyt{
+    color: #f2f2f2;
+    background: rgb(10, 10,31);
+    background: linear-gradient(264deg, rgba(23, 2, 23, 1) 53%, rgba(25, 25, 5, 1) 100%);
+}
 .logo {
     height: 4rem;
     position: relative;
-    top: -2.8rem;
+    /* top: -0.2rem; */
 }
 
 .navbar-list {
